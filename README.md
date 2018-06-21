@@ -1,2 +1,3 @@
 # xlf-translator
-Read and translate xlf files
+### Read and translate i18n xlf files by google translate
+
