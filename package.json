@@ -1,0 +1,31 @@
+{
+  "name": "xlf-translator",
+  "version": "1.0.0",
+  "description": "An XLF Reader and translator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivonederlof/xlf-translator.git"
+  },
+  "keywords": [
+    "XLF",
+    "XLFF",
+    "Automated",
+    "translate",
+    "translator"
+  ],
+  "author": "Ivo Nederlof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivonederlof/xlf-translator/issues"
+  },
+  "homepage": "https://github.com/ivonederlof/xlf-translator#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "google-translate-api": "^2.3.0",
+    "xml2js": "^0.4.19"
+  }
+}

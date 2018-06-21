@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6ca31a7a8fcb91c9fb7b57765f91b5fb4b857af2" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{sideBarSection.title}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2826c528d25617ef76b4811afa0b01e7f8a0fcbb" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{sideBarItem.title}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>e
+      <trans-unit id="ea5aae2ddc62ecc5da8e544dd09f7424d023a15f" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{reference.title}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/home/home.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29dbc6a0880435de5ab2cd814126bb80e90822a5" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{portfolioItem.title}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67b8489c9e067eb5485e8c9c7ada9ff7590d2f56" datatype="html">
+        <source>b.1990 Anaheim, California.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+      Currently living and working in The Hague, Netherlands.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ddb23021acde0ce82888106f550fdcd3b8cccea8" datatype="html">
+        <source>Education</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a7c1fb8b0692546b13140c6d4454ca32e00efa18" datatype="html">
+        <source>2016 B.A. in Art Practice with Highest Distinction and Departmental Honors, University of California,
+      Berkeley</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7258907c4fb3f37bda8bf1f31a14a8a5bf11c2c8" datatype="html">
+        <source>2014 A.A in Liberal Studies, Saddle Back College, Mission Viejo, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d9cbf093586618068225427fe90242381e58771" datatype="html">
+        <source>Group Exhibitions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0dce95a6840f6e186352a177ae80a64f8b797a64" datatype="html">
+        <source>2016-2017 Moffitt Library, University of California, Berkeley</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2aeaf228af4d631ee508b980afad1123f9060895" datatype="html">
+        <source>2016 &quot;Embody, NIAD Art Fair&quot;, NIAD Art Center, Richmond, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af64be113e5e0431c8a13ebf3416a5aaba05d8cc" datatype="html">
+        <source>2016 &quot;36 Artists in 3 Rooms, Senior Thesis&quot;, Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b23b80f8124dd7b79d395a9806973fd7b70ff67" datatype="html">
+        <source>2016 &quot;Pick Your Poison, Honors Exhibition&quot;, Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3fdc5d99dfa5a18963da98218cbc137b18f1771b" datatype="html">
+        <source>2015 &quot;Grizzly Bay Film and Arts Festival&quot;, Banatao Auditorium, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57282312be3a5c8832772a9900eb4269bdf0bbbc" datatype="html">
+        <source>2015 “I’m Melting, California”, Wurster Courtyard, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48ec00bd1be12b905b270e07bd7ad3f9d4914d33" datatype="html">
+        <source>2015 “Oh Dolly, Allopatry, They See Me Rollin”, The Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0def2a1b9a0f1f72d9efa975148aa692a1c8cbe" datatype="html">
+        <source>2015 “IKWYDLS”, The Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="df517b090ae3a4e552bc4da85b00e4a3a4a93864" datatype="html">
+        <source>2015 “Terminal”, Artist Television Access, San Francisco, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a5c762f62819ee44547ab1ea44e1291b91273df7" datatype="html">
+        <source>2015 “Junction”, The Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b262ab5ffb33d65b02d610e857ca6835df461d42" datatype="html">
+        <source>2016 Certificate of Excellence in Painting- University of California, Berkeley</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a7e3fe0d883ae45cbcc88f124c816a9ee8053e5" datatype="html">
+        <source>2016 Art Practice Studio Awardee- University of California, Berkeley</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b56799602c6b9fbc748b513fc44da30d789cf118" datatype="html">
+        <source>First name:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b3108d0aae147c1cb4dfb8419111b6214464a60" datatype="html">
+        <source>Last name:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="91b96d7228b6e05c238fa4e39abfc17ad51a6eef" datatype="html">
+        <source>Email:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8865ed3834a850ae6123ce54f380aac3f0b88fe2" datatype="html">
+        <source>Message:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c5ff8fa9c9aaec93f97e37c9a0edcd797194573" datatype="html">
+        <source>Send</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0100ece615af9c8278528371261044064dc55913" datatype="html">
+        <source>My statement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/statement/statement.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="918efa4753019ac058724422641415c585e8651b" datatype="html">
+        <source>Bridget Cuevas (USA 1990) lives and works in The Hague, Netherlands. She is an acrylic abstract
+    painter applying
+    lines through the use of tape, rulers, and the appropriation of found color pallets. These tools imitate precision,
+    thereon placating the balance between head and hand. In consequence, allowing a forethoughtful process to yield
+    antidotal ease, as well as advocate for the confidence to condemn the importance of perfection.
+
+    Cuevas holds a B.A in Art Practice with Highest Distinction and Departmental Honors from The University of
+    California, Berkeley.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/statement/statement.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
