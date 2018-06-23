@@ -2,20 +2,84 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="6ca31a7a8fcb91c9fb7b57765f91b5fb4b857af2" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{sideBarSection.title}}"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2826c528d25617ef76b4811afa0b01e7f8a0fcbb" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{sideBarItem.title}}"/></source>
+      <trans-unit id="86f147eb153ff1292a71b37e1864e245ebe57338" datatype="html">
+        <source>Paint</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
           <context context-type="linenumber">14</context>
         </context-group>
-      </trans-unit>e
+      </trans-unit>
+      <trans-unit id="8ae47ae0d27a48a4a8e53ff8a366017823e9a049" datatype="html">
+        <source>2018</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3edcad1147ddfb6725a46e50b76916f1f8086590" datatype="html">
+        <source>2017</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bcd01a24e803831c1d17de0a3da045ceed6a5cc8" datatype="html">
+        <source>2016</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c4c9a8ef7fb4f47064d57e7feb1162fbe8faabc" datatype="html">
+        <source>2015</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16bbdbd0d6ae32a789d269d3dade656345f5fa7f" datatype="html">
+        <source>Pen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="321e4419a943044e674beb55b8039f42a9761ca5" datatype="html">
+        <source>Info</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="61b6813cc2c1da64f9f54484aac977d39868f55c" datatype="html">
+        <source>CV</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="defad8d06bea905c2a0e77e23e63353f86e0d95f" datatype="html">
+        <source>Statement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="ea5aae2ddc62ecc5da8e544dd09f7424d023a15f" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="{{reference.title}}"/></source>
         <context-group purpose="location">
