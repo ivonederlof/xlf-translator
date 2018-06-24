@@ -3,9 +3,6 @@
   "localDir": "./src/locale",
   "fromLanguage": "en",
   "toLanguage": [
-    "nl",
-    "de",
-    "fr",
-    "ja"
+    "nl"
   ]
 }

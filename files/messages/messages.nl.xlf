@@ -2,28 +2,300 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="61b6813cc2c1da64f9f54484aac977d39868f55c" datatype="html">
+        <target>CV</target>
+        <source>CV</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="321e4419a943044e674beb55b8039f42a9761ca5" datatype="html">
+        <target>Info</target>
+        <source>Info</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0100ece615af9c8278528371261044064dc55913" datatype="html">
+        <target>Mijn statement</target>
+        <source>My statement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/statement/statement.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b3108d0aae147c1cb4dfb8419111b6214464a60" datatype="html">
+        <target>Achternaam:</target>
+        <source>Last name:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="91b96d7228b6e05c238fa4e39abfc17ad51a6eef" datatype="html">
+        <target>E-mail:</target>
+        <source>Email:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c5ff8fa9c9aaec93f97e37c9a0edcd797194573" datatype="html">
+        <target>Sturen</target>
+        <source>Send</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="918efa4753019ac058724422641415c585e8651b" datatype="html">
+        <target>Bridget Cuevas (VS 1990) woont en werkt in Den Haag, Nederland. Ze is een acryl abstracte schilder die lijnen toepast door het gebruik van tape, linialen en de toe-eigening van gevonden kleurenpallets. Deze gereedschappen imiteren precisie, waarna de balans tussen hoofd en hand wordt gepositioneerd. Het gevolg is dat een voorzichtig proces leidt tot een afkeer van het antidotum, en pleit voor het vertrouwen om het belang van perfectie te veroordelen. Cuevas heeft een B.A in Art Practice met het hoogste onderscheid en afdelingsprijzen van de University of California, Berkeley.</target>
+        <source>Bridget Cuevas (USA 1990) lives and works in The Hague, Netherlands. She is an acrylic abstract    painter applying     lines through the use of tape, rulers, and the appropriation of found color pallets. These tools imitate precision,     thereon placating the balance between head and hand. In consequence, allowing a forethoughtful process to yield     antidotal ease, as well as advocate for the confidence to condemn the importance of perfection.      Cuevas holds a B.A in Art Practice with Highest Distinction and Departmental Honors from The University of     California, Berkeley.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/statement/statement.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ddb23021acde0ce82888106f550fdcd3b8cccea8" datatype="html">
+        <target>Onderwijs</target>
+        <source>Education</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+        <target>Contact</target>
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b0ad71a4436374e5082ff38a5fc68c6ab76bef18" datatype="html">
+        <target>b.1990 Anaheim, Californië</target>
+        <source>b.1990 Anaheim, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a5c762f62819ee44547ab1ea44e1291b91273df7" datatype="html">
+        <target>2015 "Junction", The Worth Ryder Art Gallery, Berkeley, Californië</target>
+        <source>2015 “Junction”, The Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8865ed3834a850ae6123ce54f380aac3f0b88fe2" datatype="html">
+        <target>Bericht:</target>
+        <source>Message:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="defad8d06bea905c2a0e77e23e63353f86e0d95f" datatype="html">
+        <target>Mijn statement</target>
+        <source>Statement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16bbdbd0d6ae32a789d269d3dade656345f5fa7f" datatype="html">
+        <target>Pen</target>
+        <source>Pen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b56799602c6b9fbc748b513fc44da30d789cf118" datatype="html">
+        <target>Voornaam:</target>
+        <source>First name:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66fad4cbe16c3a1898b10ecd2f28bc06f0f9e0a4" datatype="html">
+        <target>Neem contact met mij op</target>
+        <source>Contact me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a7c1fb8b0692546b13140c6d4454ca32e00efa18" datatype="html">
+        <target>2016 B.A. in Art Practice met het hoogste onderscheid en afdelingsprijzen, University of California, Berkeley</target>
+        <source>2016 B.A. in Art Practice with Highest Distinction and Departmental Honors, University of California,      Berkeley</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af64be113e5e0431c8a13ebf3416a5aaba05d8cc" datatype="html">
+        <target>2016 "36 Artists in 3 Rooms, Senior Thesis", Worth Ryder Art Gallery, Berkeley, Californië</target>
+        <source>2016 "36 Artists in 3 Rooms, Senior Thesis", Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2aeaf228af4d631ee508b980afad1123f9060895" datatype="html">
+        <target>2016 "Embody, NIAD Art Fair", NIAD Art Center, Richmond, Californië</target>
+        <source>2016 "Embody, NIAD Art Fair", NIAD Art Center, Richmond, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57282312be3a5c8832772a9900eb4269bdf0bbbc" datatype="html">
+        <target>2015 "I'm Melting, California", Wurster Courtyard, Berkeley, Californië</target>
+        <source>2015 “I’m Melting, California”, Wurster Courtyard, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b262ab5ffb33d65b02d610e857ca6835df461d42" datatype="html">
+        <target>2016 Certificate of Excellence in Painting- University of California, Berkeley</target>
+        <source>2016 Certificate of Excellence in Painting- University of California, Berkeley</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7258907c4fb3f37bda8bf1f31a14a8a5bf11c2c8" datatype="html">
+        <target>2014 A.A in Liberal Studies, Saddleback College, Mission Viejo, Californië</target>
+        <source>2014 A.A in Liberal Studies, Saddle Back College, Mission Viejo, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c4821f304e85d57063f9304e6de058fa08bd04d" datatype="html">
+        <target>Momenteel woon en werk in Den Haag, Nederland</target>
+        <source>Currently living and working in The Hague, Netherlands</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0dce95a6840f6e186352a177ae80a64f8b797a64" datatype="html">
+        <target>2016-2017 Moffitt Library, University of California, Berkeley</target>
+        <source>2016-2017 Moffitt Library, University of California, Berkeley</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="86f147eb153ff1292a71b37e1864e245ebe57338" datatype="html">
-        <target>Gisteren had ik een feest en het was verdomd leuk</target>
-        <source>Yesterday i had a party, and it was damn fun</source>
+        <target>Schilderij</target>
+        <source>Paint</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3edcad1147ddfb6725a46e50b76916f1f8086590" datatype="html">
-        <target>Ik kom uit Nederland waar kom je vandaan</target>
-        <source>I am from holland where are you from</source>
+      <trans-unit id="df517b090ae3a4e552bc4da85b00e4a3a4a93864" datatype="html">
+        <target>2015 "Terminal", Artist Television Access, San Francisco, Californië</target>
+        <source>2015 “Terminal”, Artist Television Access, San Francisco, California</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d9cbf093586618068225427fe90242381e58771" datatype="html">
+        <target>Groepstentoonstellingen</target>
+        <source>Group Exhibitions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8ae47ae0d27a48a4a8e53ff8a366017823e9a049" datatype="html">
-        <target>Ik vond de beste surfspot in Mexico</target>
-        <source>I found the best surfspot in mexico</source>
+      <trans-unit id="3fdc5d99dfa5a18963da98218cbc137b18f1771b" datatype="html">
+        <target>2015 "Grizzly Bay Film and Arts Festival", Banatao Auditorium, Berkeley, Californië</target>
+        <source>2015 "Grizzly Bay Film and Arts Festival", Banatao Auditorium, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a7e3fe0d883ae45cbcc88f124c816a9ee8053e5" datatype="html">
+        <target>2016 Art Practice Studio Awardee- University of California, Berkeley</target>
+        <source>2016 Art Practice Studio Awardee- University of California, Berkeley</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0def2a1b9a0f1f72d9efa975148aa692a1c8cbe" datatype="html">
+        <target>2015 "IKWYDLS", The Worth Ryder Art Gallery, Berkeley, Californië</target>
+        <source>2015 “IKWYDLS”, The Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48ec00bd1be12b905b270e07bd7ad3f9d4914d33" datatype="html">
+        <target>2015 "Oh Dolly, Allopatry, They See Me Rollin", The Worth Ryder Art Gallery, Berkeley, Californië</target>
+        <source>2015 “Oh Dolly, Allopatry, They See Me Rollin”, The Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b23b80f8124dd7b79d395a9806973fd7b70ff67" datatype="html">
+        <target>2016 "Pick Your Poison, Honours Exhibition", Worth Ryder Art Gallery, Berkeley, Californië</target>
+        <source>2016 "Pick Your Poison, Honors Exhibition", Worth Ryder Art Gallery, Berkeley, California</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/cv/cv.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82f0e19ac208b3adc102d4f801ba9cb7e6aba1a3" datatype="html">
+        <target>Uw voornaam</target>
+        <source>Your first name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6a3bf06f6b576d2904e606deafca68d0e038b08b" datatype="html">
+        <target>Ontwikkeld door</target>
+        <source>Developed by</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed063906e10eab2a1b2e2dc31b42f2648d97a52e" datatype="html">
+        <target>Uw achternaam</target>
+        <source>Your last name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="104ae52d53193080c7a28dbaadf8fc9f961882cf" datatype="html">
+        <target>Uw e-mail</target>
+        <source>Your email please</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="981e110bd265b8315251ad45c355db6a8a840cec" datatype="html">
+        <target>Uw bericht</target>
+        <source>Your message please</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pages/contact/contact.component.ts</context>
+          <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
     </body>
