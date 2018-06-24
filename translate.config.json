@@ -1,8 +1,11 @@
 {
   "project": "bridget-cuevas-web",
+  "localDir": "./src/locale",
   "fromLanguage": "en",
   "toLanguage": [
     "nl",
-    "de"
+    "de",
+    "fr",
+    "ja"
   ]
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="86f147eb153ff1292a71b37e1864e245ebe57338" datatype="html">
+        <target>Gestern hatte ich eine Party und es war verdammt lustig</target>
+        <source>Yesterday i had a party, and it was damn fun</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ae47ae0d27a48a4a8e53ff8a366017823e9a049" datatype="html">
+        <target>Ich habe den besten Surfspot in Mexiko gefunden</target>
+        <source>I found the best surfspot in mexico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3edcad1147ddfb6725a46e50b76916f1f8086590" datatype="html">
+        <target>Ich komme aus Holland, wo kommst du her</target>
+        <source>I am from holland where are you from</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
