@@ -2,8 +2,7 @@
   "project": "bridget-cuevas-web",
   "fromLanguage": "en",
   "toLanguage": [
-    "de",
-    "fr",
-    "nl"
+    "nl",
+    "de"
   ]
 }

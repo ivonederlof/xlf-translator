@@ -3,11 +3,11 @@ const async = require('async');
 const xlfProcesser = require('./lib/xlf-file-processor');
 const xlfTranslator = require('./lib/xlf-translator');
 const xml2js = require('xml2js');
-const config = require('./config');
+const config = require('./translate.config');
 const constants = require('./lib/constants');
 const errors = require('./lib/errors');
 
-    console.log(err);
+translateAutomaticFile((err) => {
     console.log('Done ;)');
 });
 
@@ -56,11 +56,21 @@ function translateAutomaticFile(callback) {
             const bodies = [];
 
             async.forEach(config.toLanguage, (languageToTranslate, next) => {
-                xlfTranslator.translateBody(body, config.fromLanguage, languageToTranslate, (err, newBody) => {
-                    bodies.push(newBody);
-                    next(err);
-                });
 
+
+
+                xlfTranslator.translateBody(body, config.fromLanguage, languageToTranslate, (err, newBody) => {
+                    const language = {language: languageToTranslate};
+                    Object.assign(language, newBody);
+                    bodies.push(newBody);
+
+ 
+                    // wait otherwise google will block this ip address
+                    setTimeout(() => {
+                        console.warn(`translated ${languageToTranslate}`);
+                        next(err);
+                    }, 3000)
+                });
             }, (err) => {
                 callback(err, xlfFileAsString, bodies);
             });
@@ -73,7 +83,7 @@ function translateAutomaticFile(callback) {
                 const builder = new xml2js.Builder();
                 const xml = builder.buildObject(xlfFileAsString);
 
-                xlfProcesser.createXlfFile(`./${constants.OUTPUT_DIRECTORY}/${constants.OUTPUT_FILE_NAME}.${constants.FILE_TYPE}`, xml, () => {
+                xlfProcesser.createXlfFile(`./${constants.OUTPUT_DIRECTORY}/${constants.OUTPUT_FILE_NAME}.${body.language}.${constants.FILE_TYPE}`, xml, () => {
                     next();
                 })
 
@@ -85,3 +95,6 @@ function translateAutomaticFile(callback) {
         callback(err);
     });
 }
+
+
+
