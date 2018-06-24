@@ -15,7 +15,8 @@
     "XLFF",
     "Automated",
     "translate",
-    "translator"
+    "translator",
+    "i18n"
   ],
   "author": "Ivo Nederlof",
   "license": "ISC",

@@ -1,12 +1,12 @@
 const async = require('async');
 
-const xlfProcesser = require('./lib/xlf-processor');
+const xlfProcesser = require('./lib/xlf-file-processor');
 const xlfTranslator = require('./lib/xlf-translator');
 const xml2js = require('xml2js');
 const config = require('./config');
 const constants = require('./lib/constants');
+const errors = require('./lib/errors');
 
-translateAutomaticFile((err) => {
     console.log(err);
     console.log('Done ;)');
 });
@@ -15,7 +15,7 @@ translateAutomaticFile((err) => {
  * Translate a file that has target, else it will break
  * @param callback
  */
-function translateFromFile(callback {
+function translateFromFile(callback) {
 
     callback();
 }
@@ -30,13 +30,13 @@ function translateAutomaticFile(callback) {
         // first validate before processing
         (callback) => {
             if (!config.project) {
-                return callback(new Error('add a project name, we need store your files somewhere'));
+                return callback(new Error(errors.NO_PROJECT_NAME.description));
             }
             if (!config.fromLanguage) {
-                return callback(new Error('Yo!, we need to know the language of this file, please add a valid iso to the configuration (fromLanguage)'))
+                return callback(new Error(errors.NO_FROM_LANGUAGE));
             }
             if (config.toLanguage.length === 0) {
-                return callback(new Error('Wha!, we need to know to which language(s) we need to transform the data, please add a valid iso to the configuration file (toLanguage)'))
+                return callback(new Error(errors.NO_TO_LANGUAGE));
             }
             callback();
         },
