@@ -1,8 +1,8 @@
 # Xlf-translator
 
-This library could be used to automate your i18n translations with google translate.
-I use this package mainly for bootstrapping the language, before i can edit the csv files in numbers/excel.
-This project is still under construction
+This package may be used to automate i18n translations with google translate.
+It is primarily used for bootstrapping language files before they are edited with csv files in numbers/excel.
+This project is still under construction.
 
 ## Getting Started
 
@@ -11,7 +11,10 @@ This project is still under construction
 Simply use npm to install the package
 
 ```
-npm install xlf-translator --save
+# Global so it can be call from anywhere
+$ npm install -g json2csv
+# or as a dependency of a project
+$ npm install xlf-translator --save
 ```
 
 ### Usage
@@ -21,38 +24,33 @@ a ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in t
 
 ```
 {
-  "project": "bridget-cuevas-web",
+  "project": "my-awesome-project",
   "localDir": "./src/locale",
   "fromLanguage": "en",
   "toLanguage": [
     "nl"
   ]
 }
-
 ```
 
 ## Built With
 
 * [google-translate-api](https://github.com/matheuss/google-translate-api) - Used translate the files
 * [node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - Used for editing xml
+* [csvtojson](https://www.npmjs.com/package/csvtojson) - Convert csv to json
+* [json2csv](https://www.npmjs.com/package/json2csv) - Convert json to csv
 
 ## Contributing
 
 Submit pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
 ## Author
 
 * **Ivo Nederlof** - *Initial work* - [xlf-translator](https://github.com/ivonederlof/xlf-translator)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## Other
 
-Use these codes for the translations
+Use these codes in the config file """toLanguage""" """fromLanguage"""
 ```
 'auto': 'Automatic'
 'af': 'Afrikaans'

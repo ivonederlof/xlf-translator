@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27cd18d8-416c-4223-a9e4-72920eb0dcf5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -17,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGELOG.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -29,17 +40,8 @@
       <file leaf-file-name="xlf-processor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/xlf-processor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="149" column="40" lean-forward="true" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xlf-translator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/xlf-translator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="364">
+              <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -47,17 +49,26 @@
       <file leaf-file-name="source.xlf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/source.xlf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
+            <state relative-caret-position="4110">
+              <caret line="274" selection-start-line="274" selection-end-line="274" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translate.config.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="xlf-file-processor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/xlf-file-processor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translate.config.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/translate.config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -92,17 +103,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="115" selection-start-line="50" selection-start-column="115" selection-end-line="50" selection-end-column="115" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string.util.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/utils/string.util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -139,6 +141,7 @@
         <option value="$PROJECT_DIR$/files/translations/csv/messages.nl.csv" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
       </list>
     </option>
   </component>
@@ -175,30 +178,6 @@
               <item name="xlf-translator" type="b2602c69:ProjectViewProjectNode" />
               <item name="xlf-translator" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlf-translator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xlf-translator" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="messages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlf-translator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xlf-translator" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlf-translator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xlf-translator" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlf-translator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xlf-translator" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,12 +230,12 @@
       <workItem from="1529528566926" duration="489000" />
       <workItem from="1529529101187" duration="174000" />
       <workItem from="1529529409007" duration="34000" />
-      <workItem from="1529529453461" duration="49178000" />
+      <workItem from="1529529453461" duration="50645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49875000" />
+    <option name="totallyTimeSpent" value="51342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="812" extended-state="6" />
@@ -320,30 +299,6 @@
           <line>26</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/xlf-processor.js</url>
-          <line>144</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/xlf-processor.js</url>
-          <line>158</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/xlf-processor.js</url>
-          <line>155</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/xlf-processor.js</url>
-          <line>156</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="126" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -493,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/xlf-file-processor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-614">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils/string.util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -511,13 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/xlf-processor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="149" column="40" lean-forward="true" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -535,13 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/source.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/translations/csv/messages.nl.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -556,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translate.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -570,17 +497,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/files/source.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4110">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/xlf-file-processor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/xlf-processor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="115" selection-start-line="50" selection-start-column="115" selection-end-line="50" selection-end-column="115" />
+        <state relative-caret-position="391">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translate.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
