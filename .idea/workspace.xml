@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27cd18d8-416c-4223-a9e4-72920eb0dcf5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/utils/string.util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/xlf-processor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/messages/messages.de.xlf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/messages/messages.fr.xlf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/messages/messages.ja.xlf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/messages/messages.nl.xlf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/source.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/files/source.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/translations/csv/translation.de.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/translations/csv/translation.fr.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/translations/csv/translation.ja.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/translations/csv/translation.nl.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/xlf-file-processor.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xlf-file-processor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/xlf-translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xlf-translator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translate.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,15 +43,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="errors.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/errors.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="source.xlf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/source.xlf">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,8 +55,8 @@
       <file leaf-file-name="translate.config.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/translate.config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state>
+              <caret selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -105,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.nl.xlf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messages.nl.xlf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/messages/messages.nl.xlf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="69" column="32" selection-end-line="302" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="17" column="153" selection-start-line="17" selection-start-column="153" selection-end-line="17" selection-end-column="153" />
             </state>
           </provider>
         </entry>
@@ -141,7 +124,6 @@
         <option value="$PROJECT_DIR$/files/messages.xlf" />
         <option value="$PROJECT_DIR$/files/config.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/lib/errors.js" />
         <option value="$PROJECT_DIR$/lib/constants.js" />
@@ -155,6 +137,7 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/files/source.xlf" />
         <option value="$PROJECT_DIR$/files/translations/csv/messages.nl.csv" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -169,7 +152,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="24" />
     <option name="width" value="1440" />
@@ -267,15 +250,15 @@
       <workItem from="1529528566926" duration="489000" />
       <workItem from="1529529101187" duration="174000" />
       <workItem from="1529529409007" duration="34000" />
-      <workItem from="1529529453461" duration="48153000" />
+      <workItem from="1529529453461" duration="48981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48850000" />
+    <option name="totallyTimeSpent" value="49678000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1440" height="813" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -283,7 +266,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946298" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25974026" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2601156" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -408,13 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="83" lean-forward="true" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -565,20 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translate.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/source.xlf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -597,6 +559,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="69" column="32" selection-end-line="302" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translate.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="17" column="153" selection-start-line="17" selection-start-column="153" selection-end-line="17" selection-end-column="153" />
         </state>
       </provider>
     </entry>

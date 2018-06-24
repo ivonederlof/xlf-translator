@@ -1,10 +1,8 @@
 # Xlf-translator
 
-This library could be used to automate translations with google translate for i18n.
-
-## Getting Started
-
-First install this project with npm. Then add a ```translator.config.json``` file in the root directory of you angular project.
+This library could be used to automate your i18n translations with google translate.
+I use this package mainly for bootstrapping the language, before i can edit the csv files in numbers/excel.
+This project is still under construction
 
 ### Installing
 
@@ -14,11 +12,26 @@ Simply use npm to install the package
 npm install xlf-translator --save
 ```
 
-## Running the tests
+## Getting Started
+
+Add a ```translator.config.json``` file in the root directory of you angular project, make sure your i18n is setup. Then run it once. This will generate
+a ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the src/locale directory. We can then use the csv to edit our translations.
+
 
 ```
-npm run test
+json
+
+{
+  "project": "bridget-cuevas-web",
+  "localDir": "./src/locale",
+  "fromLanguage": "en",
+  "toLanguage": [
+    "nl"
+  ]
+}
+
 ```
+
 
 ## Built With
 
