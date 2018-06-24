@@ -5,7 +5,7 @@ where we can send the files form csv to real humans for translation.
 
 ## Getting Started
 
-First install this project with npm. Then add a a """translator.config.json""" in the root directory of you angular project.
+First install this project with npm. Then add a a ```translator.config.json``` in the root directory of you angular project.
 
 ### Installing
 
@@ -15,35 +15,20 @@ Just simply use npm to install the package
 npm install xlf-translator --save
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm run test
 ```
 
 ## Built With
 
 * [google-translate-api](https://github.com/matheuss/google-translate-api) - Used translate the files
+* [node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - Used for editing xml
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Submit pull requests to us.
 
 ## Versioning
 
@@ -66,7 +51,7 @@ This project is licensed under the MIT License
 ## Other
 
 Use these codes for the translations
-"""
+```
 'auto': 'Automatic'
 'af': 'Afrikaans'
 'sq': 'Albanian'
@@ -172,4 +157,4 @@ Use these codes for the translations
 'yi': 'Yiddish'
 'yo': 'Yoruba'
 'zu': 'Zulu'
-"""
+```
