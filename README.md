@@ -1,11 +1,11 @@
 # Xlf-translator
 
-This library could be used to automate translation with google translate for i18n. I use it mainly for bootstrapping the
-translations in angular projects. With these results you can edit results easily
+This library could be used to automate translations with google translate for i18n. I mainly use it for generating the right files,
+where we can send the files form csv to real humans for translation.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+First install this project with npm. Then add a a """translator.config.json""" in the root directory of you angular project.
 
 ### Installing
 
@@ -37,15 +37,9 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [google-translate-api](https://github.com/matheuss/google-translate-api) - Used translate the files
 
 ## Contributing
 
@@ -55,26 +49,24 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## Authors
+## Author
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Ivo Nederlof** - *Initial work* - [xlf-translator](https://github.com/ivonederlof/xlf-translator)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* You are welcome to contribute to this project
 
 ## Other
 
 Use these codes for the translations
-
+"""
 'auto': 'Automatic'
 'af': 'Afrikaans'
 'sq': 'Albanian'
@@ -180,3 +172,4 @@ Use these codes for the translations
 'yi': 'Yiddish'
 'yo': 'Yoruba'
 'zu': 'Zulu'
+"""
