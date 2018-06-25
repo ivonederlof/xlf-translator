@@ -1,7 +1,7 @@
 # Xlf-translator
 
 This package may be used to automate i18n translations with google translate.
-It is primarily used for bootstrapping language files before they are edited with csv files in numbers/excel.
+It is primarily used for adding targets to your message files before they are edited with csv files in numbers/excel.
 This project is still under construction.
 
 ## Getting Started
@@ -50,7 +50,7 @@ Submit pull requests to us.
 
 ## Other
 
-Use these codes in the config file """toLanguage""" """fromLanguage"""
+Use these codes in the config file ``toLanguage``` ```fromLanguage``
 ```
 'auto': 'Automatic'
 'af': 'Afrikaans'
