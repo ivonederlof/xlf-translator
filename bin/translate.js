@@ -3,6 +3,7 @@
 const xlrTranslatorModule = require('./../index');
 
 global.appRoot = process.cwd();
+global.config = require(`${appRoot}/translate.config.json`);
 
 xlrTranslatorModule.prepare((err) => {
     if (err) {

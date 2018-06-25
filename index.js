@@ -8,7 +8,6 @@ function XlrTranslatorModule() {
     //constructor
 }
 
-
 /**
  * Main start translating method, this will check if stuff already exists
  */

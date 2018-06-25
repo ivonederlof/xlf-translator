@@ -3,21 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="27cd18d8-416c-4223-a9e4-72920eb0dcf5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/translate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/errors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/string.util.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/string.util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/xlf-file-processor.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xlf-file-processor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/xlf-processor.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xlf-processor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/xlf-translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xlf-translator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locale/messages/messages.nl.xlf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locale/source.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/src/locale/source.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locale/translations/csv/messages.nl.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translate.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,45 +28,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="source.xlf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/locale/source.xlf">
+      <file leaf-file-name="xlf-processor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/xlf-processor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            <state relative-caret-position="232">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CHANGELOG.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <file leaf-file-name="xlf-file-processor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/xlf-file-processor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="181">
+              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translate.config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/translate.config.json">
+      <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/constants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.de.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/locale/translations/csv/messages.de.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="translate.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/translate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="messages.en.csv" pinned="false" current-in-tab="false">
@@ -91,22 +83,18 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="messages.nl.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messages.nl.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/locale/translations/csv/messages.nl.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xlf-processor.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/xlf-processor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-            </state>
-          </provider>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -134,18 +122,18 @@
         <option value="$PROJECT_DIR$/files/translations/csv/messages.nl.csv" />
         <option value="$PROJECT_DIR$/bin/start.js" />
         <option value="$PROJECT_DIR$/lib/xlf-translator.js" />
-        <option value="$PROJECT_DIR$/bin/translate.js" />
         <option value="$PROJECT_DIR$/lib/xlf-file-processor.js" />
         <option value="$PROJECT_DIR$/lib/utils/string.util.js" />
         <option value="$PROJECT_DIR$/lib/constants.js" />
         <option value="$PROJECT_DIR$/lib/errors.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/lib/xlf-processor.js" />
         <option value="$PROJECT_DIR$/src/locale/source.xlf" />
         <option value="$PROJECT_DIR$/translate.config.json" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/lib/xlf-processor.js" />
+        <option value="$PROJECT_DIR$/bin/translate.js" />
       </list>
     </option>
   </component>
@@ -245,12 +233,12 @@
       <workItem from="1529528566926" duration="489000" />
       <workItem from="1529529101187" duration="174000" />
       <workItem from="1529529409007" duration="34000" />
-      <workItem from="1529529453461" duration="64531000" />
+      <workItem from="1529529453461" duration="65013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65228000" />
+    <option name="totallyTimeSpent" value="65710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,13 +251,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="810" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32947975" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946298" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36086956" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36086956" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947975" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -307,7 +296,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>15</line>
+          <line>14</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="173" />
         </line-breakpoint>
@@ -329,11 +318,23 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/xlf-processor.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/xlf-processor.js</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="192" />
+      <option name="time" value="194" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -505,27 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/xlf-file-processor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1661">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/translate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/errors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -533,24 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -568,13 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/xlf-processor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -604,7 +563,52 @@
     <entry file="file://$PROJECT_DIR$/src/locale/translations/csv/messages.nl.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/xlf-file-processor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/xlf-processor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/translate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
