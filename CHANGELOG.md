@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2018-06-25
+### Changed
+- Changed some checkers
+- Changed Readme
+
+### Added
+- added preparation logics
 
 ## [1.0.3] - 2018-06-24
 ### Changed

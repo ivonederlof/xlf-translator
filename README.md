@@ -20,19 +20,26 @@ $ npm install xlf-translator --save
 
 ### Usage
 
-Add a ```translator.config.json``` file in the root directory of you angular project, make sure your i18n is setup. Then run it once. This will generate
+Add a ```translator.config.json``` file in the root directory of you angular project, make sure your i18n environment is setup. Then run it once. This will generate
 a ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the src/locale directory. We can then use the csv to edit our translations.
 
 ```
 {
-  "project": "my-awesome-project",
-  "localDir": "./src/locale",
   "fromLanguage": "en",
   "toLanguage": [
     "nl"
   ]
 }
 ```
+
+In the terminal we can enter
+
+```
+$ translate
+```
+
+This starts the google translator. It will create the translation files in the messages directory.
+In translations/csv/ we can edit the files as csv. When done hit ```translate``` again for reindexing.
 
 ## Built With
 
@@ -49,11 +56,17 @@ Submit pull requests to us.
 
 * **Ivo Nederlof** - *Initial work* - [xlf-translator](https://github.com/ivonederlof/xlf-translator)
 
+
+## Todo
+
+1. Index newly created sources from the source.xlf, we can define if the files need to be overridden by boolean in the config file
+2. Tests
+
 ## Other
 
-Use these codes in the config file ``toLanguage``` ```fromLanguage``
+Use these codes in the config file toLanguage and fromLanguage in the config
 ```
-'auto': 'Automatic'
+'auto': 'Automatic'``
 'af': 'Afrikaans'
 'sq': 'Albanian'
 'am': 'Amharic'

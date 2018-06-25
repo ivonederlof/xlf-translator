@@ -1,8 +1,9 @@
 {
-  "project": "my-awesome-project",
-  "localDir": "./src/locale",
   "fromLanguage": "en",
   "toLanguage": [
-    "nl"
+    "nl",
+    "en",
+    "de",
+    "fr"
   ]
 }
