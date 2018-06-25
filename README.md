@@ -11,9 +11,10 @@ This project is still under construction.
 Simply use npm to install the package
 
 ```
-# Global so it can be call from anywhere
-$ npm install -g json2csv
-# or as a dependency of a project
+# Install global so it can be called from anywhere
+$ npm install -g xlf-translator
+
+# Or install the package as a local dependency
 $ npm install xlf-translator --save
 ```
 
