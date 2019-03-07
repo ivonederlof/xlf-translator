@@ -13,14 +13,11 @@ Simply use npm to install the package
 ```
 # Install global so it can be called from anywhere
 $ npm install -g xlf-translator
-
-# Or install the package as a local dependency
-$ npm install xlf-translator --save
 ```
 
 ### Usage
 
-Add a ```translator.config.json``` file in the root directory of you angular project, make sure your i18n environment is setup. Then run it once. This will generate
+Add a ```translate.config.json``` file in the root directory of you angular project, make sure your i18n environment is setup. Then run it once. This will generate
 a ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the src/locale directory. We can then use the csv to edit our translations.
 
 ```
