@@ -23,7 +23,7 @@ Now you can edit the translations in the csv (Run it again for updates).
 
 ```
 {
-  "source": "/src/locale",
+  "source": "/src/locale/messages.xlf",
   "outputPath": "/src/locale",
   "fromLanguage": "en",
   "toLanguage": [
