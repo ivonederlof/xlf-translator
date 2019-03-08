@@ -16,12 +16,13 @@ $ npm install -g xlf-translator
 
 ### Usage
 
-Create a ```translate.config.json``` file in the root of your project, make sure the messages.xlf is provided in the config file. Then run it once. 
+Create a ```tranlator.config.json``` file in the root of your project, make sure the messages.xlf is provided in the config file. Then run it once. 
 This will generate all the translations
 as ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the output directory (provided in the config file). 
 Now you can edit the translations in the csv (Run it again for updates).
 
 ```
+// tranlator.config.json
 {
   "source": "/src/locale/messages.xlf",
   "outputPath": "/src/locale",
@@ -68,7 +69,7 @@ Submit pull requests to us.
 
 ## Other
 
-Use these codes in the config file toLanguage and fromLanguage in the config
+Example language codes
 ```
 'auto': 'Automatic'``
 'af': 'Afrikaans'
