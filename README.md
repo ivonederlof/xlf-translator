@@ -1,7 +1,7 @@
 # Xlf-translator
 
-This package may be used to automate i18n translations with google translate.
-It is primarily used for adding targets to your message files before they are edited with csv files in numbers/excel.
+This tool can be used to automate i18n translations with google translate. 
+It is primarily used for creating translation templates in csv so that translators can edit the files in numbers/excel.
 
 ## Getting Started
 
@@ -16,16 +16,24 @@ $ npm install -g xlf-translator
 
 ### Usage
 
-Add a ```translate.config.json``` file in the root directory of your project, make sure the messages.xlf is inside the ```./src/locale``` directory. Then run it once. This will generate
-a ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the src/locale directory. We can then use the csv to edit our translations.
+Create a ```translate.config.json``` file in the root of your project, make sure the messages.xlf is inside the outputPath that is given in the config file. Then run it once. 
+This will generate all the translation 
+as ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the output directory (provided in the config file). 
+Now you can edit the translations in the csv (Run it again for updating).
 
 ```
 {
+  "source": "/src/locale",
+  "outputPath": "/src/locale",
   "fromLanguage": "en",
   "toLanguage": [
-    "nl"
+    "nl",
+    "en",
+    "de",
+    "fr"
   ]
 }
+
 ```
 
 In the terminal we can enter
