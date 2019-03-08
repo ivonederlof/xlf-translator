@@ -1,4 +1,6 @@
 {
+  "source": "/src/locale",
+  "outputPath": "/src/locale",
   "fromLanguage": "en",
   "toLanguage": [
     "nl",

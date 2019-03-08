@@ -11,24 +11,24 @@ function XlrTranslatorModule() {
 /**
  * Main start translating method, this will check if stuff already exists
  */
-XlrTranslatorModule.prototype.startTranslating = function () {
-    xlfFileProcessor.doesHaveFiles(`${appRoot}/src/locale/messages`, (err, messagesExists) => {
+XlrTranslatorModule.prototype.startTranslating = function (callback) {
+    xlfFileProcessor.doesHaveFiles(`${appRoot}${translatorConfig.outputPath}/messages`, (err, messagesExists) => {
         if (messagesExists) {
-            console.warn('found message src, started indexing manual translations');
+            console.info('Found existing translations, started indexing manual translations');
             xlfProcessor.translateFileFromManualCsvDirectory((err) => {
                 if (err) {
-                    console.error(err);
+                    throw err;
                 }
-                console.log('re-indexed your translations');
+                callback(null, 'indexed');
 
             });
         } else {
-            console.warn('did not find any messages, started translating with google ...');
+            console.info('Did not find any existing translations, started translating with google ...');
             xlfProcessor.translateFileWithGoogleApi((err) => {
                 if (err) {
-                    console.error(err);
+                    throw err;
                 }
-                console.log('created new translations')
+                callback(null, 'created');
             });
         }
     });
@@ -65,27 +65,38 @@ XlrTranslatorModule.prototype.prepare = function (callback) {
         (callback) => {
 
             async.waterfall([
+
+                (callback) => {
+                    xlfFileProcessor.doesFileExist(`${appRoot}${translatorConfig.source}/messages.xlf`, (err, doesExist) => {
+
+                        if (!doesExist) {
+                            return callback(errors.CONFIG_MESSAGE_FILE_NOT_EXIST);
+                        }
+
+                        callback(err);
+                    })
+                },
                 (callback) => {
                     // check if locale directory is present
-                    xlfFileProcessor.dirExistOrCreate(`${appRoot}/src/locale`, (err) => {
+                    xlfFileProcessor.dirExistOrCreate(`${appRoot}${translatorConfig.outputPath}`, (err) => {
                         callback(err);
                     });
                 },
                 (callback) => {
                     // check if message directory is present
-                    xlfFileProcessor.dirExistOrCreate(`${appRoot}/src/locale/messages`, (err) => {
+                    xlfFileProcessor.dirExistOrCreate(`${appRoot}${translatorConfig.outputPath}/messages`, (err) => {
                         callback(err);
                     });
                 },
                 (callback) => {
                     // check if translations directory is present
-                    xlfFileProcessor.dirExistOrCreate(`${appRoot}/src/locale/translations`, (err) => {
+                    xlfFileProcessor.dirExistOrCreate(`${appRoot}${translatorConfig.outputPath}/translations`, (err) => {
                         callback(err);
                     });
                 },
                 (callback) => {
                     // check if translations directory is present
-                    xlfFileProcessor.dirExistOrCreate(`${appRoot}/src/locale/translations/csv`, (err) => {
+                    xlfFileProcessor.dirExistOrCreate(`${appRoot}${translatorConfig.outputPath}/translations/csv`, (err) => {
                         callback(err);
                     });
                 }

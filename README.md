@@ -2,13 +2,12 @@
 
 This package may be used to automate i18n translations with google translate.
 It is primarily used for adding targets to your message files before they are edited with csv files in numbers/excel.
-This project is still under construction.
 
 ## Getting Started
 
 ### Installing
 
-Simply use npm to install the package
+Simply use npm to install the package globally
 
 ```
 # Install global so it can be called from anywhere
@@ -17,7 +16,7 @@ $ npm install -g xlf-translator
 
 ### Usage
 
-Add a ```translate.config.json``` file in the root directory of you angular project, make sure your i18n environment is setup. Then run it once. This will generate
+Add a ```translate.config.json``` file in the root directory of your project, make sure the messages.xlf is inside the ```./src/locale``` directory. Then run it once. This will generate
 a ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the src/locale directory. We can then use the csv to edit our translations.
 
 ```
