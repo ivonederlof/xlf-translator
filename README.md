@@ -16,10 +16,10 @@ $ npm install -g xlf-translator
 
 ### Usage
 
-Create a ```translate.config.json``` file in the root of your project, make sure the messages.xlf is inside the outputPath that is given in the config file. Then run it once. 
-This will generate all the translation 
+Create a ```translate.config.json``` file in the root of your project, make sure the messages.xlf is provided in the config file. Then run it once. 
+This will generate all the translations
 as ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the output directory (provided in the config file). 
-Now you can edit the translations in the csv (Run it again for updating).
+Now you can edit the translations in the csv (Run it again for updates).
 
 ```
 {
@@ -42,7 +42,7 @@ In the terminal we can enter
 $ translate
 ```
 
-This starts the google translator. It will create the translation files in the messages directory.
+This starts the google translator (if not yet exist). It will create the translation files in the messages directory.
 In translations/csv/ we can edit the files as csv. When done hit ```translate``` again for reindexing.
 
 ## Built With

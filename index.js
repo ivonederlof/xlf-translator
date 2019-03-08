@@ -67,7 +67,8 @@ XlrTranslatorModule.prototype.prepare = function (callback) {
             async.waterfall([
 
                 (callback) => {
-                    xlfFileProcessor.doesFileExist(`${appRoot}${translatorConfig.source}/messages.xlf`, (err, doesExist) => {
+                    const file = `${appRoot}${translatorConfig.source}`;
+                    xlfFileProcessor.doesFileExist(file, (err, doesExist) => {
 
                         if (!doesExist) {
                             return callback(errors.CONFIG_MESSAGE_FILE_NOT_EXIST);
