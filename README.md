@@ -1,3 +1,6 @@
+
+[![npm version](https://badge.fury.io/js/xlf-translator.svg)](https://badge.fury.io/js/xlf-translator)
+
 # Xlf-translator
 
 This tool can be used to automate i18n translations with google translate. 
