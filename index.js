@@ -3,6 +3,7 @@ const xlfProcessor = require('./lib/xlf-processor');
 const constants = require('./lib/constants');
 const errors = require('./lib/errors');
 const async = require('async');
+const chalk = require('chalk');
 
 function XlrTranslatorModule() {
     //constructor
@@ -14,21 +15,16 @@ function XlrTranslatorModule() {
 XlrTranslatorModule.prototype.startTranslating = function (callback) {
     xlfFileProcessor.doesHaveFiles(`${appRoot}${translatorConfig.outputPath}/messages`, (err, messagesExists) => {
         if (messagesExists) {
-            console.info('Found existing translations, started indexing manual translations');
-            xlfProcessor.translateFileFromManualCsvDirectory((err) => {
-                if (err) {
-                    throw err;
-                }
-                callback(null, 'indexed');
+            console.log(chalk.gray('Found existing translations, started indexing manual translations\n'));
 
+            xlfProcessor.handleExistingMessages((err) => {
+                callback(err, 'indexed');
             });
+
         } else {
-            console.info('Did not find any existing translations, started translating with google ...');
+            console.log(chalk.gray('Did not find any existing translations, started translating with google ...'));
             xlfProcessor.translateFileWithGoogleApi((err) => {
-                if (err) {
-                    throw err;
-                }
-                callback(null, 'created');
+                callback(err, 'created');
             });
         }
     });
