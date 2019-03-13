@@ -1,5 +1,5 @@
 {
-  "source": "/src/locale/messages.xlf",
+  "source": "/locale/messages.xlf",
   "outputPath": "/locale",
   "fromLanguage": "en",
   "toLanguage": [

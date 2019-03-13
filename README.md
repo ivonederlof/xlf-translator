@@ -51,7 +51,7 @@ In translations/csv/ we can edit the files as csv. When done hit ```translate```
 
 ## Built With
 
-* [google-translate-api](https://github.com/matheuss/google-translate-api) - Used translate the files
+* [@k3rn31p4nic/google-translate-api](https://www.npmjs.com/package/@k3rn31p4nic/google-translate-api) - Used translate the files
 * [node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - Used for editing xml
 * [csvtojson](https://www.npmjs.com/package/csvtojson) - Convert csv to json
 * [json2csv](https://www.npmjs.com/package/json2csv) - Convert json to csv

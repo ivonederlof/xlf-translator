@@ -1,6 +1,6 @@
 {
   "name": "xlf-translator",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "description": "An XLF Reader and translator",
   "main": "index.js",
   "bin": {
@@ -30,7 +30,9 @@
   "dependencies": {
     "@k3rn31p4nic/google-translate-api": "^1.0.5",
     "async": "^2.6.1",
+    "chalk": "^2.4.2",
     "csvtojson": "^2.0.4",
+    "express": "^4.16.4",
     "json2csv": "^4.1.4",
     "xml2js": "^0.4.19"
   }

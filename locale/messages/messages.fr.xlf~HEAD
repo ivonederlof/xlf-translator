@@ -2,8 +2,16 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="321e4419a943044e674beb55b8039f42a9761ca5" datatype="html">
+        <target>Il est temps pour un cookie</target>
+        <source>It is time for a cookie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="86f147eb153ff1292a71b37e1864e245ebe57338" datatype="html">
-        <target>I feel like a beer</target>
+        <target>Je me sens comme une bière</target>
         <source>I feel like a beer</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
@@ -11,19 +19,11 @@
         </context-group>
       </trans-unit>
       <trans-unit id="16bbdbd0d6ae32a789d269d3dade656345f5fa7f" datatype="html">
-        <target>Yesterday i had a awesome party, what about you?</target>
+        <target>Hier, j'ai fait une super fête, et toi?</target>
         <source>Yesterday i had a awesome party, what about you?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
           <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="321e4419a943044e674beb55b8039f42a9761ca5" datatype="html">
-        <target>It is time for a cookie</target>
-        <source>It is time for a cookie</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
-          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
     </body>
