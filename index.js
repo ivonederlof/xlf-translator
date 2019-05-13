@@ -14,6 +14,7 @@ function XlrTranslatorModule() {
  */
 XlrTranslatorModule.prototype.startTranslating = function (callback) {
     xlfFileProcessor.doesHaveFiles(`${appRoot}${translatorConfig.outputPath}/messages`, (err, messagesExists) => {
+
         if (messagesExists) {
             console.log(chalk.gray('Found existing translations, started indexing manual translations\n'));
 
@@ -33,7 +34,7 @@ XlrTranslatorModule.prototype.startTranslating = function (callback) {
 /**
  * Prepare before starting, check if there is a config file else add one, and that it has the need constants
  */
-XlrTranslatorModule.prototype.prepare = function (callback) {
+XlrTranslatorModule.prototype.validateFilesAndPrepareBeforeProcessing = function (callback) {
 
     async.waterfall([
         (callback) => {

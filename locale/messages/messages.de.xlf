@@ -10,20 +10,20 @@
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="16bbdbd0d6ae32a789d269d3dade656345f5fa7f" datatype="html">
-        <target>Gestern hatte ich eine tolle Party. Was ist mit dir?</target>
-        <source>Yesterday i had a awesome party, what about you?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="321e4419a943044e674beb55b8039f42a9761ca5" datatype="html">
         <target>Es ist Zeit für einen Keks</target>
         <source>It is time for a cookie</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
           <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16bbdbd0d6ae32a789d269d3dade656345f5fa7f" datatype="html">
+        <target>Gestern hatte ich eine tolle Party. Was ist mit dir?</target>
+        <source>Yesterday i had a awesome party, what about you?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
     </body>

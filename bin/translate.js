@@ -21,7 +21,7 @@ console.log(`
 `);
 
 
-xlrTranslatorModule.prepare((err) => {
+xlrTranslatorModule.validateFilesAndPrepareBeforeProcessing((err) => {
     if (err) {
         console.error(err)
     } else {
