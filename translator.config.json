@@ -3,10 +3,6 @@
   "outputPath": "/locale",
   "fromLanguage": "en",
   "toLanguage": [
-    "nl",
-    "en",
-    "de",
-    "fr",
-    "en-US"
+    "nl"
   ]
 }
