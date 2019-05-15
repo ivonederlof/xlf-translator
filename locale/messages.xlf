@@ -2,25 +2,2004 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="86f147eb153ff1292a71b37e1864e245ebe57338" datatype="html">
-        <source>I feel like a beer</source>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">14</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="16bbdbd0d6ae32a789d269d3dade656345f5fa7f" datatype="html">
-        <source>Yesterday i had a awesome party, what about you?</source>
+      </trans-unit><trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{getPercentValue()}}"/>%</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/progressbar/progressbar.d.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source>PM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit><trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source>AM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit><trans-unit id="dce4fb53bd401f2ded36a8c45cb471eff6b529d4" datatype="html">
+        <source>and</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@datlinq/ngx-datlinq/lib/components/inputs/dat-file-upload/dat-file-upload.component.d.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit><trans-unit id="19867a964df5316274aef2018778e9fdcacaf979" datatype="html">
+        <source>
+                Drop it
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@datlinq/ngx-datlinq/lib/components/inputs/dat-file-upload/dat-file-upload.component.d.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="d833321cc90a0b0a52714c6d5ec97fbe6c7cfa5c" datatype="html">
+        <source>Upload image</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@datlinq/ngx-datlinq/lib/components/inputs/dat-file-upload/dat-file-upload.component.d.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit><trans-unit id="b0988d07d2c9498afd95bcbdbe232a70ffd4cc38" datatype="html">
+        <source>Datlinq. All rights reserved.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/footers/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit><trans-unit id="3aa431ec7954f0f26f0d12c209fdca5b1ee56293" datatype="html">
+        <source>
+      You are about to annotate outlet types that have been predicated by a computer.
+      To measure, analyse and understand if these outlet types are correct we need your help.
+      You will see a Outlet names and the prediction of the Outlet type (in Blue).
+      In most cases you will also see on what information this predication is based on.
+      A prediction can be annotated as correct, incorrect or you do not know.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/instruction-modal/instruction-modal.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit><trans-unit id="3db39135c783da4bb320d5826f4de893f62c7e1b" datatype="html">
+        <source>Correct</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/instruction-modal/instruction-modal.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit><trans-unit id="f957ff18bc604523dc60be789669673da53d554a" datatype="html">
+        <source>
+      If you believe the prediction is correct, press the green button Correct or use the right arrow button on your
+      keyboard.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/instruction-modal/instruction-modal.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit><trans-unit id="8b42d54000704393a3c06e5f8b668880014f6986" datatype="html">
+        <source>Incorrect</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/instruction-modal/instruction-modal.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit><trans-unit id="9e5663c2688617ef90a71c5f1a8beb5026fad78c" datatype="html">
+        <source>
+      If you think it the prediction is incorrect, press the red button Incorrect or use the left arrow button on your
+      keyboard.
+      When Incorrect you are being asked to point out the correct Outlet type, either by selecting from the list or
+      select box.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/instruction-modal/instruction-modal.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit><trans-unit id="e5d8bb389c702588877f039d72178f219453a72d" datatype="html">
+        <source>Unknown</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/instruction-modal/instruction-modal.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit><trans-unit id="3d464056454761e5ea09c4f9c6db47cd0906d810" datatype="html">
+        <source>
+      If you are unsure or simply don’t know, please use the Unknown button or question mark button (without shift).
+      It can happen that you have made a mistake and you want to change your judgement.
+      On the left hand side you will find a history of your annotations, select the one you want to change.
+      Let’s get started, if you have further questions please do not hesitate to contact your Data manager.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/instruction-modal/instruction-modal.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit><trans-unit id="375e649d42df5adfd5ca7728e44a384f7d5e7225" datatype="html">
+        <source>Cancel
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/confirm-modal/confirm-modal.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit><trans-unit id="92e90e5e43d911e9c53fa48c273b670a41d38a33" datatype="html">
+        <source>Yes
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/modals/confirm-modal/confirm-modal.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit><trans-unit id="05d9353b33d6060b51ab1680cc9853b5c51a87ac" datatype="html">
+        <source>Unexpected error!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit><trans-unit id="281f6e117b3ab8e28e21affb46a8735521e2eab8" datatype="html">
+        <source>
+          Sorry, something went wrong.
+            Either check the URL or go to the</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit><trans-unit id="e9976ce724e0c3205b927b6b7385ab3158b4c14a" datatype="html">
+        <source>homepage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit><trans-unit id="dd1be6b63205f48a9b695cdefd0dbe6fe20fd3e8" datatype="html">
+        <source>
+          Forbidden
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit><trans-unit id="6fa33e3514bb52cd44b60115e517f600d7bf43e9" datatype="html">
+        <source>
+          Sorry, It seems like you don&apos;t have access to this page.
+            Either check the URL or go to the</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit><trans-unit id="d27b38099827456b536d43c218ed23d46dd39d69" datatype="html">
+        <source>Page not found!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit><trans-unit id="cb4b9668e5a9c473a640fc0de442ba0bc60c1afb" datatype="html">
+        <source>
+          Sorry, the page you&apos;re looking for cannot be accessed. Either check the URL or go to the</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit><trans-unit id="63488a56a66ae4ab40547f2b0c6e7e22e02b0b4d" datatype="html">
+        <source>Internal server error!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit><trans-unit id="0b8500b672d1e0e114a57f179246ca0116288f5c" datatype="html">
+        <source>
+          An error ocurred and your request couldn’t be completed.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          Either check the URL or go to the</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/errors/error/error.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit><trans-unit id="3a8e04b34236be1cb450987973bcb7b33d483e35" datatype="html">
+        <source>Forgot password?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/login/login.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit><trans-unit id="0cfae7a09e86a20e6e9fae39914b1aea9ae66b39" datatype="html">
+        <source> Reset here</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/login/login.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit><trans-unit id="ef1fe50099e7debdc8a14e24cdbfc358e02b1991" datatype="html">
+        <source>Login to your account</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/login/login.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="9b2fd2a81342b5821f47ce0e6f2383b1403fd659" datatype="html">
+        <source>Email is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/login-form/login-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-form/reset-form.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/account-detail/account-detail.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit><trans-unit id="c62740afdb2ce016273ba84260f2ea18ea5afd3a" datatype="html">
+        <source>
+      This is not a valid email
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/login-form/login-form.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-form/reset-form.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit><trans-unit id="emailPlaceholder" datatype="html">
+        <source>Enter a email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/login-form/login-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit><trans-unit id="passwordPlaceholder" datatype="html">
+        <source>Enter a password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/login-form/login-form.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit><trans-unit id="444fe9ecb2265e65adc2b27476b6e1ea6a706601" datatype="html">
+        <source>Log In
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/login-form/login-form.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit><trans-unit id="emailRequiredError" datatype="html">
+        <source>Email is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit><trans-unit id="notValidEmail" datatype="html">
+        <source>
+      This is not a valid email
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit><trans-unit id="passwordRequiredError" datatype="html">
+        <source>
+      Password is required
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit><trans-unit id="uppercaseCharacterRuleError" datatype="html">
+        <source>
+      Minimum 1 uppercase character
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit><trans-unit id="oneDigitError" datatype="html">
+        <source>
+      At least 1 digit
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit><trans-unit id="lowercaseCharacterRuleError" datatype="html">
+        <source>
+      At least 1 lowercase character
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit><trans-unit id="oldPasswordPlaceholder" datatype="html">
+        <source>Enter old password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit><trans-unit id="newPasswordPlaceholder" datatype="html">
+        <source>Enter new password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit><trans-unit id="passwordConfirmRequiredError" datatype="html">
+        <source>Confirming is required
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit><trans-unit id="notEqualPasswordError" datatype="html">
+        <source>
+      This password is not equal to the one above
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit><trans-unit id="confirmPasswordPlaceholder" datatype="html">
+        <source>Confirm new password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit><trans-unit id="sendPasswordButton" datatype="html">
+        <source>
+    Send new password
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/new-password-form/new-password-form.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit><trans-unit id="d9e4cf9eeb85c466d32b89f8572e8cce0081eb1b" datatype="html">
+        <source>Enter your email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit><trans-unit id="ea622c1698c19293f1e4b90e3dd697fbd5a070ca" datatype="html">
+        <source>
+      Code is required, check your inbox
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="82899fc646e8c453f220028805642222eca2e74a" datatype="html">
+        <source>Enter the provided verification code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit><trans-unit id="c5ade6aed4f6dbe8e1a28318f7a739af199bb894" datatype="html">
+        <source>
+      Password is required
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit><trans-unit id="943d73f6cc5e6d0d84a580f75263718855becf06" datatype="html">
+        <source>
+      Minimum 1 uppercase character
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit><trans-unit id="870250f6cac577879d50072f04a6274b2cd61c03" datatype="html">
+        <source>
+      At least 1 digit
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit><trans-unit id="5ac81972248adf3aeecb704007cc2d44f74e2907" datatype="html">
+        <source>
+      At least 1 uppercase character
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit><trans-unit id="2ad3d0024734927da1bb8e70fe3b46ae7a51bbf0" datatype="html">
+        <source>
+      At least 1 lowercase character
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit><trans-unit id="70b08b6478ed096f3e32c4898b9147ed86dedbf3" datatype="html">
+        <source>Your new password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit><trans-unit id="5c24101224743f0ec2a3157b569303577e51c13a" datatype="html">
+        <source>Confirming is required
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit><trans-unit id="6ee530b4c69fac43457ff863523877a3228f8a87" datatype="html">
+        <source>
+      This password is not equal to the one above
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit><trans-unit id="350063d30acfcb5719550a3e2dcf2e7fcfd6015c" datatype="html">
+        <source>Confirm your new password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit><trans-unit id="cb3d5d881f96feb070987cd1ac85099d6b2ddb57" datatype="html">
+        <source>Reset Password
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-confirm-password-form/reset-confirm-password-form.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit><trans-unit id="ce981ec6990e59bfe0957c80eb24e3a8cf1bb119" datatype="html">
+        <source>Enter a email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-form/reset-form.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit><trans-unit id="06f8f65531e105b284b8d70c97afe39b9400960e" datatype="html">
+        <source>Send Code
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/forms/reset-form/reset-form.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit><trans-unit id="c647b3d5498b15dac0193e63a10d95f5f5a2b915" datatype="html">
+        <source>Success!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/new-password/new-password-success/new-password-success.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-password-success/reset-password-success.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="bc6aa167d309494ebe377e73045ce0690d69d7da" datatype="html">
+        <source>You can now login with your new password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/new-password/new-password-success/new-password-success.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-password-success/reset-password-success.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="c2d64df66300a9465bebd71b30075cba6e1eeb27" datatype="html">
+        <source>Can&apos;t set a new password? Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/new-password/new-password.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit><trans-unit id="c547d6bd71a9869532c9030a06e2e8e93b9308e0" datatype="html">
+        <source>if you need additional assistance.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/new-password/new-password.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit><trans-unit id="ec30f682411f7bb43ac58c100e7d08bba74f40f3" datatype="html">
+        <source>New password required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/new-password/new-password.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="f542ae8f11babe4b450b57315506102fd0b78bb0" datatype="html">
+        <source>Enter your new password below</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/new-password/new-password.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="d56a69c8f0b877b650d4514fc815a06728267730" datatype="html">
+        <source>Or try to </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit><trans-unit id="9eb24f062e9063eed7559d5193702fc3b8162c59" datatype="html">
+        <source> Login</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit><trans-unit id="a43ab4cd10eae270beb7b5353fb22be9ca7176dd" datatype="html">
+        <source>Still can&apos;t login? E-mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-password.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="321e4419a943044e674beb55b8039f42a9761ca5" datatype="html">
-        <source>It is time for a cookie</source>
+      </trans-unit><trans-unit id="6676f052ab9d1ed83317074f054f2ec6e896f0cc" datatype="html">
+        <source>Reset password</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/components/sidebar/sidebar.component.ts</context>
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="08c2de0ed3f06d6e5e4d76062a68df51083af950" datatype="html">
+        <source>Enter your email address below and we&apos;ll send you a verification code.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="54432c81f504486d7c06aa7ec714178bf27a39ee" datatype="html">
+        <source>Did not receive a code?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-confirm-password/reset-confirm-password.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit><trans-unit id="d0bb1ec40ab62d8b0e97e3fd02d33fcd0a74f9f2" datatype="html">
+        <source> Resend code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-confirm-password/reset-confirm-password.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit><trans-unit id="6498fa1b8f563988f769654a75411bb8060134b9" datatype="html">
+        <source>Set new password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-confirm-password/reset-confirm-password.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="5c0711d8e7b4cd1096938b66893475573861c840" datatype="html">
+        <source>Confirm and set your new password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_public/components/reset-password/reset-confirm-password/reset-confirm-password.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="5df11046d48d9a596ec08dfbdb53012636dac1b9" datatype="html">
+        <source>Logout
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/secure.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit><trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
+        <source>Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="c31299b8df0dc34710379d706f3498f978ef60c7" datatype="html">
+        <source>Name is required
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/account-detail/account-detail.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit><trans-unit id="34e301b2faa392a7b180ce7268c5205470c7eaec" datatype="html">
+        <source>
+                  This is not a name
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/account-detail/account-detail.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit><trans-unit id="a0d4052a4218d5029fcd925c824dfbc3f24bf6eb" datatype="html">
+        <source>Last name is required
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/account-detail/account-detail.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit><trans-unit id="ee706e870c4da14ca0bf2873b00a9c32f1f9f327" datatype="html">
+        <source>
+                  This is not a lastname
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/account-detail/account-detail.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit><trans-unit id="574fc6f317350237debe26dc36bca2db0860ee6c" datatype="html">
+        <source>Phone number is required
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/account-detail/account-detail.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit><trans-unit id="fc61416d48adb7af122b8697e806077eb251fb57" datatype="html">
+        <source>Sectors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segmentation.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit><trans-unit id="e0cf063d72e83bf11a818a5248029b1483e5cb8a" datatype="html">
+        <source>sectors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segmentation.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit><trans-unit id="f2b3291078b0605eb8dcb0306b1470d54d03ccc0" datatype="html">
+        <source>
+      Add Sector
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segmentation.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit><trans-unit id="044529b22038befea803a2eb9b91ad4c68ed07db" datatype="html">
+        <source>Segments</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sectors/sector-detail/sector-detail.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="a3816dff01b75901e298fa41b6d86db7ec7c4f14" datatype="html">
+        <source>segments</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sectors/sector-detail/sector-detail.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit><trans-unit id="011485142450a11e427baebd189057f7ce729919" datatype="html">
+        <source>
+        Add segment
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sectors/sector-detail/sector-detail.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit><trans-unit id="b7e2ba0587163e1077e3b9ba76ee84f8d19df900" datatype="html">
+        <source>Edit Sector</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sectors/sector-detail/sector-detail.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit><trans-unit id="9268e7cbdebea4b779eceaf2248da5050ee72f54" datatype="html">
+        <source>
+        Delete sector
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sectors/sector-detail/sector-detail.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit><trans-unit id="05b0b5d0926d6ced242d96e83c1f889e59d05558" datatype="html">
+        <source>Add translation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sectors/sector-detail/sector-detail.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segments/segment-detail/segment-detail.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-detail/sub-segment-detail.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit><trans-unit id="0ae6c65614fb806887b99ea9b107de3d347b9c73" datatype="html">
+        <source>
+        Edit
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-language-list-form/segmentation-translation-list-item/segmentation-translation-list-item.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit><trans-unit id="6cb1a9de15616c0b4efdd54cc10b58a166b9e016" datatype="html">
+        <source>
+        Close
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-language-list-form/segmentation-translation-list-item/segmentation-translation-list-item.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit><trans-unit id="762305ed70a870898505bb670bbdb556abcb179c" datatype="html">
+        <source>
+        Name is required
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-language-list-form/segmentation-translation-list-item/segmentation-translation-list-item.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit><trans-unit id="5a9487016ea4358270c618ee91d3e81c6d789a34" datatype="html">
+        <source>
+        Description is required
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-language-list-form/segmentation-translation-list-item/segmentation-translation-list-item.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit><trans-unit id="17c7bc4ead8a8d8180ca9fe6b865d5ccc1290694" datatype="html">
+        <source>
+          Delete
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-language-list-form/segmentation-translation-list-item/segmentation-translation-list-item.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit><trans-unit id="368b817b7cc89a1705d9ac752da4ddda15d42ae8" datatype="html">
+        <source>
+          Save
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-language-list-form/segmentation-translation-list-item/segmentation-translation-list-item.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit><trans-unit id="40cee26f8c09933744a9a61d322234822a387335" datatype="html">
+        <source>
+        Add Chain
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/chain.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit><trans-unit id="1e8f31e182a993c9472f6f24cdbabbbd84f9a070" datatype="html">
+        <source>Chain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/chain.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit><trans-unit id="9887accbe2b3fa9d9504c6ff50340644c8d0bb56" datatype="html">
+        <source>Website url</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/chain.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit><trans-unit id="d6ee082488856232cd31083f8ee4f7a91c6896c0" datatype="html">
+        <source>Outlet Type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/chain.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit><trans-unit id="b105f50be6bdd52a475bf46361e7170687032843" datatype="html">
+        <source>Showing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/chain.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-detail/continent-detail.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-detail/country-detail.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit><trans-unit id="cb409856da8bd6ec3b77ff0d5fe4968c9aecdddb" datatype="html">
+        <source>Chain detail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/chain-detail/chain-detail.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/chain-create/chain-create.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit><trans-unit id="b88b3b6be3f07e6186efa22d5905840a088b30c1" datatype="html">
+        <source>
+            Add Chain
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit><trans-unit id="407c8475e478a3946dc5f870c494d7569a36adc8" datatype="html">
+        <source>Edit
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit><trans-unit id="59804d9b69f39f46506a9bb69e8eed79c3eef8fd" datatype="html">
+        <source>
+            Save
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit><trans-unit id="92d8f9629e4f885925cd45fe95c735f73a7806a7" datatype="html">
+        <source>
+                Chain name is required
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit><trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/modals/continent-translation-modal/continent-translation-modal.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-table-list/country-table-list.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-table-list/continent-table-list.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/modals/country-translation-modal/country-translation-modal.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/province-table-list/province-table-list.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/forms/province-form/province-form.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit><trans-unit id="6137d35b2fc10bfbb87b6acfaf959c5f69000932" datatype="html">
+        <source>Enter a chain name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit><trans-unit id="c2e40d59a30fdf2b96ba5f09c962839b425afff1" datatype="html">
+        <source>
+                A website url is required
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit><trans-unit id="66b980bb61e97839455ed7e54ac0da81170b9acd" datatype="html">
+        <source>
+                This is not a valid url
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit><trans-unit id="afb605e735bef0cdd46dbff3c3d2be15960cdc2b" datatype="html">
+        <source>Website</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit><trans-unit id="539286c5f0b55dbf8b31d0fe33b664fd526598f9" datatype="html">
+        <source>Enter a website url</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit><trans-unit id="27de0b1cb2c6d8fcc5555b312151a8c00aaaac24" datatype="html">
+        <source>
+                Outlet type is required
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit><trans-unit id="b25c709a1192bc0718b72b1422e5ce601319590b" datatype="html">
+        <source>
+                This is not a valid wikipedia link
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit><trans-unit id="c3439d4dfc597ab4668093943dd4298960fd7d4d" datatype="html">
+        <source>Wikipedia link</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit><trans-unit id="f8496fe178d8631f38b7d02e3ea7d0865bf30477" datatype="html">
+        <source>Enter a wiki url</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit><trans-unit id="70bc38d3cf670fbbcc9b8dac1041f35ff4075059" datatype="html">
+        <source>
+                Description is required
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit><trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit><trans-unit id="8e5aaac1f3849fd3b94e2d9b6074c005cd6af8fc" datatype="html">
+        <source>Add a chain description ...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit><trans-unit id="a679ff3443575f33810a3192d13704f50af317f6" datatype="html">
+        <source>Delete this chain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit><trans-unit id="6782ccdfc3834e54bc11c5c374e33ce5475ffb3b" datatype="html">
+        <source>
+                  Once you delete this chain, there is no going back. Please be certain.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit><trans-unit id="431cda9d1935fd08719a637e7a52c37ef4209ae2" datatype="html">
+        <source>
+                  Delete
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/chains/forms/chain-form/chain-form.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit><trans-unit id="c888cb517dd811514b3127ebd7b8a4f84ee0b893" datatype="html">
+        <source>Add sector</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sectors/sector-create/sector-create.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="827abeeec78c2e869bb7b3b2e360c524123f3026" datatype="html">
+        <source>Add segment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segments/segment-create/segment-create.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit><trans-unit id="bfbc54661bfbb4e68d822b96f3a338f5e026a7a4" datatype="html">
+        <source>Subsegments</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segments/segment-detail/segment-detail.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="87260d0cb07b63635fecb462a34779e8c866d5ee" datatype="html">
+        <source>subsegments</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segments/segment-detail/segment-detail.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit><trans-unit id="6a5598930ad74b7c07f935e7249daf5b31dc7d77" datatype="html">
+        <source>
+        Add subsegment
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segments/segment-detail/segment-detail.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit><trans-unit id="5b1329f60c0369d324895655953db55c2340c962" datatype="html">
+        <source>Edit segment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segments/segment-detail/segment-detail.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit><trans-unit id="da34b4055ea33942a37c88d1d3d838f7716c9658" datatype="html">
+        <source>
+        Delete segment
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/segments/segment-detail/segment-detail.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit><trans-unit id="56ca365e3ad9c70d040b5afd20453df5f8847e61" datatype="html">
+        <source>Add Subsegment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-create/sub-segment-create.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit><trans-unit id="6c73ce61a65b35f871364d59184abc187262a55c" datatype="html">
+        <source>name is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit><trans-unit id="891e84b9204f6f26b45292ef93a7061ad81c9f5e" datatype="html">
+        <source>name cannot be an empty space</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
           <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit><trans-unit id="444d0bf9f76aa682ea98df0d268287cba19cb129" datatype="html">
+        <source>Enter a name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/forms/province-form/province-form.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit><trans-unit id="cb736f0153ce6268fdbc11f74ee5f4a8102af652" datatype="html">
+        <source>description is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit><trans-unit id="1e4463631150644dc935b295793b6d0b67cfd722" datatype="html">
+        <source>description cannot be an empty space</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit><trans-unit id="de0cb8bfb122e2d37ce087ed49cdc1cf1332798e" datatype="html">
+        <source>Enter a description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit><trans-unit id="f8b53b407af242e77dc3391947f23988f3451e64" datatype="html">
+        <source>
+        Save
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/forms/segmentation-create-form/segmentation-create-form.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/forms/province-form/province-form.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit><trans-unit id="7fe40cdef3f36ef1bf7d351335fb662251cc9595" datatype="html">
+        <source>Outlet types</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-detail/sub-segment-detail.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit><trans-unit id="8980045e0709ef59f8429e6b61dced04b1cf6612" datatype="html">
+        <source>outlet types</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-detail/sub-segment-detail.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit><trans-unit id="7b2652724d70458fe6ed69ec15461d292e1c5daa" datatype="html">
+        <source>
+        Add Outlet type
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-detail/sub-segment-detail.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit><trans-unit id="e2c16c0bd4f0a34aed7e693a857dd1c0b5d298af" datatype="html">
+        <source>Edit Subsegment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-detail/sub-segment-detail.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit><trans-unit id="08ae4f35a3964b8c77f137269fbb74497f786fa5" datatype="html">
+        <source>translations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-detail/sub-segment-detail.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/lists/segmentation-list/segmentation-list.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/outlet-types/outlet-type-detail/outlet-type-detail.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit><trans-unit id="c371c872c94ff99702ee4d2d095891a99368bd52" datatype="html">
+        <source>
+        Delete subsegment
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-detail/sub-segment-detail.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit><trans-unit id="cc89b9f150b680ba17671360e7573149914c0c73" datatype="html">
+        <source>Add outlet type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/outlet-types/outlet-type-create/outlet-type-create.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit><trans-unit id="8bef02eab693175c32f103121b6c06632ba3cd93" datatype="html">
+        <source>Edit Outlet type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/outlet-types/outlet-type-detail/outlet-type-detail.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit><trans-unit id="61f3c5fd7eeff15770f8f73f6c04e3c12b4f8571" datatype="html">
+        <source>
+      Delete outlet type
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/segmentation/outlet-types/outlet-type-detail/outlet-type-detail.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit><trans-unit id="3c3163d370916438f3b52ea17720bfb2a68a1709" datatype="html">
+        <source>Continents</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/locality.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit><trans-unit id="bc95b3688d6d5d97316992f513f77c40a7f84a2d" datatype="html">
+        <source>continents</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/locality.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit><trans-unit id="7b584c3430a849fe1ed13d903da1683e93d4572d" datatype="html">
+        <source>
+      Add Continent
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/locality.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit><trans-unit id="32391f309c6360e46d88ec6a4887481d014acd67" datatype="html">
+        <source>Translation is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/modals/continent-translation-modal/continent-translation-modal.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/modals/country-translation-modal/country-translation-modal.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit><trans-unit id="372423684786b94f813fe442e6a7f1fe0726aec8" datatype="html">
+        <source>Translate continent name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/modals/continent-translation-modal/continent-translation-modal.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit><trans-unit id="c84df9553019022cc521320e3afaed42f23feca1" datatype="html">
+        <source>Save
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/modals/continent-translation-modal/continent-translation-modal.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/modals/country-translation-modal/country-translation-modal.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit><trans-unit id="44702f53c7769daf8e1551d7075db75b56784fb3" datatype="html">
+        <source>Continent</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit><trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
+        <source>Delete</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/forms/province-form/province-form.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit><trans-unit id="5b752f143ab30faa45a2679b5e7a28bbf3fb246d" datatype="html">
+        <source>Name is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/forms/province-form/province-form.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit><trans-unit id="1490b23011b69382e629aeff69dfac62b71cb1e2" datatype="html">
+        <source>Code is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit><trans-unit id="b4c9b663d3c3984e9a14984ca99011750e4a17ea" datatype="html">
+        <source>Code must be capitalized</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit><trans-unit id="1d60c3b30c918ce6a6c7946b3b5f3ff13a412708" datatype="html">
+        <source>Continent code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit><trans-unit id="36a16007ea8611647669fc12ac3e1f07fdfb8160" datatype="html">
+        <source>Enter a code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit><trans-unit id="7ba55b5c187317afb1f792a5859b4782a33dee75" datatype="html">
+        <source>Translations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/forms/continent-form/continent-form.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-table-list/country-table-list.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-table-list/continent-table-list.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit><trans-unit id="a51d8cd0c2e8c95f890289835bef0a7d4807d51e" datatype="html">
+        <source>Add continent</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-create/continent-create.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="2b26f3353438b9ca0c59ec4e2badb0f9e6e1533d" datatype="html">
+        <source>Edit Continent</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-detail/continent-detail.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit><trans-unit id="aee7d0de4e30405c1289745e4264e622b613632a" datatype="html">
+        <source>Countries</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-detail/continent-detail.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit><trans-unit id="b7197159e4fdac5b897e67cef5bfc245032aa433" datatype="html">
+        <source>countries</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-detail/continent-detail.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-detail/continent-detail.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit><trans-unit id="ed61e6d7d21de8d0ff6f12c2392de0fd85707bae" datatype="html">
+        <source>
+      Add country
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-detail/continent-detail.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit><trans-unit id="0d584a090fbbd575bb3c501b93aabda08acfaaad" datatype="html">
+        <source>Iso alpha 2</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-table-list/country-table-list.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit><trans-unit id="53aa3ed3eead1aee8acc7a3637cc76cf69649ec9" datatype="html">
+        <source>Iso alpha 3</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-table-list/country-table-list.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit><trans-unit id="1ed93629632c6f3d8ab38e0c8a8daf26e6c8d788" datatype="html">
+        <source>Iso numeric</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-table-list/country-table-list.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit><trans-unit id="169eed2bc3e08e1bea977bcc5d799379f6b8a758" datatype="html">
+        <source>of</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-table-list/country-table-list.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-table-list/continent-table-list.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit><trans-unit id="69c80dcd47b0676ff5e54dc00ef1c90fd37d1ebf" datatype="html">
+        <source>No countries were found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-table-list/country-table-list.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit><trans-unit id="68572de01b84c678be4bf8a27b990ecac2f41ce9" datatype="html">
+        <source>Code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-table-list/continent-table-list.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit><trans-unit id="a77fd39cfd04d417d0d1ac0031d849c51eb29e27" datatype="html">
+        <source>No continents were found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-table-list/continent-table-list.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit><trans-unit id="31aec8710288ad3ed072d063cb8f793b4c669977" datatype="html">
+        <source>Edit continent</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/continents/continent-edit/continent-edit.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="020947316f9af0e097cdb39fd030c1355b728853" datatype="html">
+        <source>Translate country name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/modals/country-translation-modal/country-translation-modal.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit><trans-unit id="a43f25a9ac40e8e2441ff0be7a36b8e5d15534df" datatype="html">
+        <source>Country</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="26c9434319ae41871770305fb7b5855de6a5640b" datatype="html">
+        <source>Iso alpha 2 is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit><trans-unit id="095861d7915c462fb91ccbd2527d152a38aae7a1" datatype="html">
+        <source>This is not a valid iso alpha 2 code, make sure you enter two capitalized characters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit><trans-unit id="b80dbe6a89c8f42910876cbc7fcf565af0102a13" datatype="html">
+        <source>Iso alpha 2 code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit><trans-unit id="95f69b170c0f01a6d125999ff47417161acf1b4f" datatype="html">
+        <source>Enter a alpha 2 code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit><trans-unit id="6f6ef533841cd5f48fafc24f262f90e6cbdd3dc7" datatype="html">
+        <source>Iso alpha 3 is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit><trans-unit id="e43211d539e5d5e8aff9d32f815accd6ca09f8a4" datatype="html">
+        <source>This is not a valid iso alpha 3 code, make sure you enter three capitalized characters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit><trans-unit id="38f9bd0cd3465f322b7fcd89d85279c709a72139" datatype="html">
+        <source>Iso alpha 3 code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit><trans-unit id="9763ae00e903f90c40dbf119681ee9418e7a5d54" datatype="html">
+        <source>Enter a alpha 3 code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit><trans-unit id="9eb406b6573889cd50630807147c8db8b517b450" datatype="html">
+        <source>Iso numeric code is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit><trans-unit id="7763093b6a4180dcc084ced7acab4e733e1400ca" datatype="html">
+        <source>Needs to be a number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit><trans-unit id="fe4ff1fbe5c6cf80525c0639509b9fa1c0a2fa7d" datatype="html">
+        <source>Iso numeric code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit><trans-unit id="290f88b047d2b9362962e2aec55bce02febeeec6" datatype="html">
+        <source>Enter a iso numeric code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/forms/country-form/country-form.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit><trans-unit id="d461465776e574662a881c3823a50b6beab492f5" datatype="html">
+        <source>Add country</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-create/country-create.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="4135e67304148a29884c08ff02797c3828d7bf55" datatype="html">
+        <source>Edit Country</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-detail/country-detail.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit><trans-unit id="2e4d4fe3160c29f8082bc7624943ffed66778fe5" datatype="html">
+        <source>Provinces</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-detail/country-detail.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit><trans-unit id="f492ddf9fda4475702df2e6e7dc5dfad81ee589d" datatype="html">
+        <source>provinces</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-detail/country-detail.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-detail/country-detail.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit><trans-unit id="448a83bc3dedd7bcf0b64317fb6aef3a010ddf55" datatype="html">
+        <source>
+      Add province
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-detail/country-detail.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit><trans-unit id="bebdf050e681cbc65d78576bc942397b44677765" datatype="html">
+        <source>Edit country</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/countries/country-edit/country-edit.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="6e20fe79208db0aeac7c05d545f1aaaea36c2881" datatype="html">
+        <source>No provinces found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/province-table-list/province-table-list.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit><trans-unit id="b63bc16d810cf7ee7530fddbebef038ce0a750ec" datatype="html">
+        <source>Add province</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/province-create/province-create.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="37bd3c41557647986477360e6731007723e2e731" datatype="html">
+        <source>Province</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/forms/province-form/province-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/forms/province-form/province-form.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="4b8dad30c22c7e860d157dafd05c579bd55aad15" datatype="html">
+        <source>Edit province</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_admin/components/locality/provinces/province-edit/province-edit.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="3f7be0397ce094e29cd35e80d45684ca64b451d1" datatype="html">
+        <source>Annotations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type-history-list/annotation-outlet-type-history-list.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit><trans-unit id="c336c1ffa1b4870bac43717f370d9db1a401d1d2" datatype="html">
+        <source>No Annotations yet</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type-history-list/annotation-outlet-type-history-list.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit><trans-unit id="0aefdf8bb08da0fa761aab902901bf9d4fe0655f" datatype="html">
+        <source>CORRECT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type-history-list/annotation-outlet-type-history-list.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit><trans-unit id="ab2862715a0e929397f58a68433d2e80e57553e8" datatype="html">
+        <source>INCORRECT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type-history-list/annotation-outlet-type-history-list.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit><trans-unit id="d2c8ce7866dea76e2aacf2ba95573fcc3aeca525" datatype="html">
+        <source>UNKNOWN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type-history-list/annotation-outlet-type-history-list.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit><trans-unit id="8fc0d70abe0be32650c5c2e91a1649dc677ba5ed" datatype="html">
+        <source> Based on </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-cards/annotation-outlet-result-card/annotation-business-result-card.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit><trans-unit id="14b914819d01304d610662e16beb2ea7cd22e529" datatype="html">
+        <source>No source types for this business type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-cards/annotation-outlet-result-card/annotation-business-result-card.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit><trans-unit id="9feaf0ba5d8d47f1fa5f80bfd25e1142efa78d25" datatype="html">
+        <source>Correction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-cards/annotation-outlet-correction-card/annotation-outlet-type-correction-card.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit><trans-unit id="8ed7531bcca1a494f7b6a1af631796186be4be43" datatype="html">
+        <source>
+          This field is required
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-cards/annotation-outlet-correction-card/annotation-outlet-type-correction-card.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit><trans-unit id="2cc3d55b95090c20f94734e4459ce6f4b9d51c5b" datatype="html">
+        <source>
+          You need to select a correction from the list
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-cards/annotation-outlet-correction-card/annotation-outlet-type-correction-card.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit><trans-unit id="d3285b35d0088130588a986a54e4a2302ca8d68f" datatype="html">
+        <source>Enter correction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-cards/annotation-outlet-correction-card/annotation-outlet-type-correction-card.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit><trans-unit id="893006f0a222284e4795b6e531738291313ec9dc" datatype="html">
+        <source>Annotation tasks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit><trans-unit id="f61c6867295f3b53d23557021f2f4e0aa1d0b8fc" datatype="html">
+        <source>Type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit><trans-unit id="38baeb215c17af9d9e295e371a57f4a48ab4c191" datatype="html">
+        <source>Target</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit><trans-unit id="81b97b8ea996ad1e4f9fca8415021850214884b1" datatype="html">
+        <source>Status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit><trans-unit id="930a8061b4521027ae8036255b8e23a92b25ab07" datatype="html">
+        <source>No outlet type was found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit><trans-unit id="74fa2b17cfebeebf509002cdf40796fb010d8637" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{historyAnnotations.length}}"/> annotations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit><trans-unit id="a58a1105fd0e8449fa76f027918f4d8bce87fe4e" datatype="html">
+        <source>
+                    Incorrect
+                  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit><trans-unit id="03fe97dd4788cbfa905882ed83cd8d59f930c322" datatype="html">
+        <source>
+                    Correct
+                  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit><trans-unit id="80247fb4352ae85a0b9ed8b9e9c623434daa05b4" datatype="html">
+        <source>
+                Unknown
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit><trans-unit id="49a3371af0eb58f02e541105eb395340048527ec" datatype="html">
+        <source>
+      Incorrect
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit><trans-unit id="66b3171a32f502df8d58897e779c9cbc979b0c86" datatype="html">
+        <source>
+      Unknown
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+      </trans-unit><trans-unit id="00a48b9fab48a5ccc0ebf0a2793495ee1cc9f968" datatype="html">
+        <source>
+      Correct
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_tasks/annotation-outlet-type/annotation-outlet-type.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="586a5fd72602b5b14ec0c55f84814de47bb21e3a" datatype="html">
+        <source>Tasks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/components/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/secure.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="076d756cd0d3922fd0011d270f527b34c3d85587" datatype="html">
+        <source>Segmentation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/components/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/segmentation/outlet-types/outlet-type-detail/outlet-type-detail.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/segmentation/sectors/sector-detail/sector-detail.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/segmentation/segmentation.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/segmentation/segments/segment-detail/segment-detail.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/segmentation/sub-segments/sub-segment-detail/sub-segment-detail.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/secure.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69dfae517e834bacf1865186867444511e385e9b" datatype="html">
+        <source>Chains</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/components/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/chains/chain-create/chain-create.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/chains/chain-detail/chain-detail.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/chains/chain.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/secure.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ad0b8729aead1daea1a2fbd0558dc6e5127255f" datatype="html">
+        <source>Locality</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/components/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/locality/continents/continent-detail/continent-detail.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/locality/countries/country-detail/country-detail.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/locality/locality.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/modules/_admin/components/locality/provinces/province-edit/province-edit.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/secure.component.ts</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
     </body>
