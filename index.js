@@ -4,6 +4,8 @@ const constants = require('./lib/constants');
 const errors = require('./lib/errors');
 const async = require('async');
 const chalk = require('chalk');
+const logSymbols = require('log-symbols');
+
 
 function XlrTranslatorModule() {
     //constructor
@@ -34,12 +36,12 @@ XlrTranslatorModule.prototype.handleMissingTranslationMessageFiles = function (m
             });
 
             if (!missingTranslations.length) {
-                console.log(chalk.gray('No missing files, continue checking for updates\n'));
+                console.log(logSymbols.success, chalk.gray('No missing files, continue checking for updates'));
                 return callback();
             }
 
+            console.log(logSymbols.success, chalk.gray(`Found missing files, added -> ${missingTranslations.join(', ')} files`));
             xlfProcessor.translateAndProcessFilesWithGoogleApi(missingTranslations, (err) => {
-                console.log(chalk.gray(`Found missing files, added -> ${missingTranslations.join(', ')} files`));
                 return callback(err, 'updated');
             });
         }
@@ -57,21 +59,21 @@ XlrTranslatorModule.prototype.startTranslating = function (done) {
     async.waterfall([
 
         (callback) => {
-            xlfFileProcessor.doesHaveFiles(messageOutputFileDir, (err, messagesExists) => {
+            xlfFileProcessor.listFiles(messageOutputFileDir, (err, files) => {
 
                 // if no files were found create new ones
-                if (!messagesExists) {
-                    console.log(chalk.gray('Did not find any existing translations, started translating with google ...\n'));
+                if (!files.length) {
+                    console.log(logSymbols.info, chalk.blue('Did not find any existing translations, started translating with google ...\n'));
                     xlfProcessor.translateAndProcessFilesWithGoogleApi(translatorConfig.toLanguage, (err) => {
                         return done(err);
                     });
+                } else {
+                    // check if there are new or missing files
+                    console.log(logSymbols.info, chalk.blue('Found existing translations\n'));
+                    this.handleMissingTranslationMessageFiles(messageOutputFileDir, (err) => {
+                        callback(err);
+                    })
                 }
-
-                // check if there are new or missing files
-                console.log(chalk.gray('Found existing translations\n'));
-                this.handleMissingTranslationMessageFiles(messageOutputFileDir, (err) => {
-                    callback(err);
-                })
             });
         },
         (callback) => {
