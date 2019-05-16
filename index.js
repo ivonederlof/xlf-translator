@@ -9,26 +9,79 @@ function XlrTranslatorModule() {
     //constructor
 }
 
+
+/**
+ * Check for missing files and translate this with the google api
+ * @param messageOutputFileDir
+ * @param callback
+ */
+XlrTranslatorModule.prototype.handleMissingTranslationMessageFiles = function (messageOutputFileDir, callback) {
+    // check if there ara missing files
+    async.waterfall([
+        (callback) => {
+            xlfFileProcessor.listFiles(messageOutputFileDir, (err, files) => {
+                callback(err, files);
+            });
+        },
+        (files, callback) => {
+            const missingTranslations = [];
+            const translationLocales = translatorConfig.toLanguage;
+            const filesLocales = files.map((file) => file.split('.')[1]);
+            translationLocales.forEach((translationLocale) => {
+                if (filesLocales.indexOf(translationLocale) === -1) {
+                    missingTranslations.push(translationLocale);
+                }
+            });
+
+            if (!missingTranslations.length) {
+                console.log(chalk.gray('No missing files, continue checking for updates\n'));
+                return callback();
+            }
+
+            xlfProcessor.translateAndProcessFilesWithGoogleApi(missingTranslations, (err) => {
+                console.log(chalk.gray(`Found missing files, added -> ${missingTranslations.join(', ')} files`));
+                return callback(err, 'updated');
+            });
+        }
+    ], (err) => {
+        callback(err);
+    })
+};
+
 /**
  * Main start translating method, this will check if stuff already exists
  */
-XlrTranslatorModule.prototype.startTranslating = function (callback) {
-    xlfFileProcessor.doesHaveFiles(`${appRoot}${translatorConfig.outputPath}/messages`, (err, messagesExists) => {
+XlrTranslatorModule.prototype.startTranslating = function (done) {
 
-        if (messagesExists) {
-            console.log(chalk.gray('Found existing translations, started indexing manual translations\n'));
+    const messageOutputFileDir = `${appRoot}${translatorConfig.outputPath}/messages`;
+    async.waterfall([
 
-            xlfProcessor.handleExistingMessages((err) => {
-                callback(err, 'indexed');
+        (callback) => {
+            xlfFileProcessor.doesHaveFiles(messageOutputFileDir, (err, messagesExists) => {
+
+                // if no files were found create new ones
+                if (!messagesExists) {
+                    console.log(chalk.gray('Did not find any existing translations, started translating with google ...\n'));
+                    xlfProcessor.translateAndProcessFilesWithGoogleApi(translatorConfig.toLanguage, (err) => {
+                        return done(err);
+                    });
+                }
+
+                // check if there are new or missing files
+                console.log(chalk.gray('Found existing translations\n'));
+                this.handleMissingTranslationMessageFiles(messageOutputFileDir, (err) => {
+                    callback(err);
+                })
             });
-
-        } else {
-            console.log(chalk.gray('Did not find any existing translations, started translating with google ...'));
-            xlfProcessor.translateFileWithGoogleApi((err) => {
-                callback(err, 'created');
+        },
+        (callback) => {
+            xlfProcessor.handleExistingMessages((err) => {
+                callback(err);
             });
         }
-    });
+    ], (err) => {
+        done(err);
+    })
 };
 
 /**

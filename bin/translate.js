@@ -30,13 +30,7 @@ xlrTranslatorModule.validateFilesAndPrepareBeforeProcessing((err) => {
             if(err) {
                 throw err;
             }
-            if (res === 'indexed') {
-                console.log(chalk.gray('Done ...'));
-                return;
-            }
-
-            console.info('Created new translations ...')
-
+            console.log(chalk.gray('Done ...'));
         });
     }
 });
