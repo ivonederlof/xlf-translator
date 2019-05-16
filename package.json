@@ -1,6 +1,6 @@
 {
   "name": "xlf-translator",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "An XLF Reader and translator",
   "main": "index.js",
   "bin": {
