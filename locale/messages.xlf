@@ -2,13 +2,41 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="ngb.alert.close" datatype="html">
-        <source>Close</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit>
+
+      <trans-unit id="343002b22befff7e3d324bfbe78485e4e72b4bab" datatype="html">
+              <source>This task is complete</source>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.ts</context>
+                <context context-type="linenumber">1</context>
+              </context-group>
+            </trans-unit>
+            <trans-unit id="13238902e7501bfe4140a3ccd27df3f592001e18" datatype="html">
+              <source>Could not tasks</source>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.ts</context>
+                <context context-type="linenumber">1</context>
+              </context-group>
+            </trans-unit>
+            <trans-unit id="b51c392ac2e4f171bcbe1c8f8df0205a428efc78" datatype="html">
+              <source>Something went wrong</source>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/_secure/modules/_tasks/annotation-tasks/annotation-tasks.component.ts</context>
+                <context context-type="linenumber">1</context>
+              </context-group>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/shared/components/toaster/toaster.component.ts</context>
+                <context context-type="linenumber">1</context>
+              </context-group>
+            </trans-unit>
+            <trans-unit id="0e9c3f6e524e0632d1d7ce7fcd64edf7479240f2" datatype="html">
+              <source>Annotate</source>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/_secure/secure.component.ts</context>
+                <context context-type="linenumber">1</context>
+              </context-group>
+            </trans-unit>
+
+
     </body>
   </file>
 </xliff>
