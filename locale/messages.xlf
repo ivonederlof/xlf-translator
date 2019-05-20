@@ -8,30 +8,7 @@
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts</context>
           <context context-type="linenumber">2</context>
         </context-group>
-      </trans-unit><trans-unit id="ngb.carousel.previous" datatype="html">
-        <source>Previous</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit><trans-unit id="ngb.carousel.next" datatype="html">
-        <source>Next</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
-          <context context-type="linenumber">17</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
-          <source>Previous month</source>
-          <context-group purpose="location">
-            <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
-            <context context-type="linenumber">4</context>
-          </context-group>
-          <context-group purpose="location">
-            <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
-            <context context-type="linenumber">5</context>
-          </context-group>
-        </trans-unit>
     </body>
   </file>
 </xliff>

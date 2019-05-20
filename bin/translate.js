@@ -32,6 +32,7 @@ xlrTranslatorModule.validateFilesAndPrepareBeforeProcessing((err) => {
             if(err) {
                 throw err;
             }
+            console.log('');
             console.log(logSymbols.info, chalk.blue('Done ...'));
         });
     }
