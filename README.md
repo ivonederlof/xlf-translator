@@ -56,19 +56,13 @@ In translations/csv/ we can edit the files as csv. When done hit ```translate```
 * [csvtojson](https://www.npmjs.com/package/csvtojson) - Convert csv to json
 * [json2csv](https://www.npmjs.com/package/json2csv) - Convert json to csv
 
-## Contributing
-
-Submit pull requests to us.
-
 ## Author
 
 * **Ivo Nederlof** - *Initial work* - [xlf-translator](https://github.com/ivonederlof/xlf-translator)
 
 
 ## Todo
-
-1. Index newly created sources from the source.xlf, we can define if the files need to be overridden by boolean in the config file
-2. Tests
+1. Tests
 
 ## Other
 
