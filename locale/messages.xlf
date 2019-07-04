@@ -228,10 +228,6 @@
           <context context-type="sourcefile">app/_secure/modules/_product-catalog/components/product-catalog-list/product-catalog-list.component.html</context>
           <context context-type="linenumber">110</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/modules/_user-management/components/user-management-list/user-management-list.component.html</context>
-          <context context-type="linenumber">96</context>
-        </context-group>
       </trans-unit><trans-unit id="d92d0b0b0a709cdb8380dd3ea1563fede82182df" datatype="html">
         <source>All rights reserved.</source>
         <context-group purpose="location">
@@ -345,13 +341,13 @@
         <source>Forgot password?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_public/components/login/login.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit><trans-unit id="f1f2bf46b775644616ddba6d2357281d56ed2480" datatype="html">
         <source>Reset here</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_public/components/login/login.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit><trans-unit id="ef1fe50099e7debdc8a14e24cdbfc358e02b1991" datatype="html">
         <source>Login to your account</source>
@@ -366,12 +362,12 @@
           <context context-type="linenumber">10</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
           <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit><trans-unit id="c62740afdb2ce016273ba84260f2ea18ea5afd3a" datatype="html">
         <source>
@@ -390,7 +386,7 @@
           <context context-type="linenumber">15</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
           <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit><trans-unit id="d9e4cf9eeb85c466d32b89f8572e8cce0081eb1b" datatype="html">
@@ -404,7 +400,7 @@
           <context context-type="linenumber">9</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
           <context context-type="linenumber">60</context>
         </context-group>
         <context-group purpose="location">
@@ -542,7 +538,7 @@
           <context context-type="linenumber">15</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/sign-up/sign-up.component.html</context>
+          <context context-type="sourcefile">app/_secure/components/sign-up/sign-up.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit><trans-unit id="ad8f99e54eb86c8b11b29870e59f9f53f712bab2" datatype="html">
@@ -674,128 +670,6 @@
           <context context-type="sourcefile">app/_public/components/new-password-success/new-password-success.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
-      </trans-unit><trans-unit id="4129d6fb738278ccdfa89054fde7a455ece986fa" datatype="html">
-        <source>Signing up signifies that you have read and agree to the</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/sign-up/sign-up.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit><trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
-        <source>Privacy Policy</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/sign-up/sign-up.component.html</context>
-          <context context-type="linenumber">17</context>
-        </context-group>
-      </trans-unit><trans-unit id="8766c44c24a24baff3581ca6d4c4bb47336c7499" datatype="html">
-        <source>Schedule a meeting
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/sign-up/sign-up.component.html</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-      </trans-unit><trans-unit id="c40c132843f349c3aa49730405de1d0ca733aef6" datatype="html">
-        <source>Sign up</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/sign-up/sign-up.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit><trans-unit id="92a89ad4c10e0c47a5c993d115f7a8cb34b6f523" datatype="html">
-        <source>
-      First name is required
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit><trans-unit id="62b6c66981335ca6eecc36b331103c60f09d1026" datatype="html">
-        <source>First name</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/modules/_user-management/components/forms/user-management-form/user-management-form.component.html</context>
-          <context context-type="linenumber">50</context>
-        </context-group>
-      </trans-unit><trans-unit id="179e233b2bad12902cedd69bdad85e7a15e2d89c" datatype="html">
-        <source>
-      Last name is required
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-      </trans-unit><trans-unit id="6ce3dadf53dda1a1ab0c3167a8ed8dced471b0dc" datatype="html">
-        <source>Last name</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
-          <context context-type="linenumber">44</context>
-        </context-group>
-      </trans-unit><trans-unit id="a932af770f4e4958f744ad256e21a38d9d3d58ce" datatype="html">
-        <source>
-      Company name is required
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">37</context>
-        </context-group>
-      </trans-unit><trans-unit id="ed1341869cf9cb7017821057cb99854bb6ac9130" datatype="html">
-        <source>Company name</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit><trans-unit id="7bd6357eacf04a49cf4c573d3743cfab5b53855a" datatype="html">
-        <source>
-      Phone number is required
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">50</context>
-        </context-group>
-      </trans-unit><trans-unit id="b77e5e91e3fecbf43373e13362c5a47a63910136" datatype="html">
-        <source>
-      Phone number is invalid
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">54</context>
-        </context-group>
-      </trans-unit><trans-unit id="63e1d28508d11998ba489a6ea4d8349e837162f5" datatype="html">
-        <source>Phone number</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">44</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
-          <context context-type="linenumber">85</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/components/forms/company-detail-form/company-detail-form.component.html</context>
-          <context context-type="linenumber">127</context>
-        </context-group>
-      </trans-unit><trans-unit id="415cea4a3f2e8f5d08fd16ac2cbed0bef12dcbda" datatype="html">
-        <source>I like to receive updates about Data Outlet X</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-      </trans-unit><trans-unit id="ef017335120476fb202ffc6123529c23b8b8c36a" datatype="html">
-        <source>Sign up
-  </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_public/components/forms/sign-up-form/sign-up-form.component.html</context>
-          <context context-type="linenumber">88</context>
-        </context-group>
       </trans-unit><trans-unit id="238cd04e87d1fc49073ead288c7ffe49b70dee5a" datatype="html">
         <source>A few questions to give you a kick start ...</source>
         <context-group purpose="location">
@@ -902,7 +776,7 @@
         <source>Product catalog</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/secure.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/modules/_product-catalog/components/product-catalog-list/product-catalog-list.component.html</context>
@@ -912,23 +786,20 @@
         <source>User Management</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/secure.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">86</context>
         </context-group>
-      </trans-unit><trans-unit id="70a41dfa7bd7fa2c57009c9054402c49baa44c91" datatype="html">
-        <source>Company Details</source>
+      </trans-unit><trans-unit id="343edfc80e36d80771c8e1bae1656612df6b496f" datatype="html">
+        <source>Company Details
+          </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/secure.component.html</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/components/company-details/company-details.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit><trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
         <source>Logout</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/secure.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit><trans-unit id="4718061fc0baa5db520c5d2e6b0251f2813c9829" datatype="html">
         <source>
@@ -970,6 +841,20 @@
           <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
+      </trans-unit><trans-unit id="62b6c66981335ca6eecc36b331103c60f09d1026" datatype="html">
+        <source>First name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_user-management/components/forms/user-management-form/user-management-form.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
       </trans-unit><trans-unit id="a4c6e56259b667a725e7788a62bc074efa2bc8da" datatype="html">
         <source>Enter your first name</source>
         <context-group purpose="location">
@@ -995,6 +880,16 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
           <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit><trans-unit id="6ce3dadf53dda1a1ab0c3167a8ed8dced471b0dc" datatype="html">
+        <source>Last name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit><trans-unit id="aa7e7badc3e70b01212a0f8363c6b44c5abf4ea8" datatype="html">
         <source>Enter your last name</source>
@@ -1044,6 +939,20 @@
           <context context-type="sourcefile">app/_secure/components/forms/company-detail-form/company-detail-form.component.html</context>
           <context context-type="linenumber">139</context>
         </context-group>
+      </trans-unit><trans-unit id="63e1d28508d11998ba489a6ea4d8349e837162f5" datatype="html">
+        <source>Phone number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/account-details-form/account-details-form.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/company-detail-form/company-detail-form.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
       </trans-unit><trans-unit id="d3f1baab99b718471dc00d23f61302f5bf1c4ef3" datatype="html">
         <source>Enter a phone number</source>
         <context-group purpose="location">
@@ -1078,6 +987,12 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/modules/_user-management/components/user-management-detail/user-management-detail.component.html</context>
           <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit><trans-unit id="70a41dfa7bd7fa2c57009c9054402c49baa44c91" datatype="html">
+        <source>Company Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/company-details/company-details.component.html</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit><trans-unit id="abaac669b33131b7f33f5f51ea5c5e52dd6ea9d4" datatype="html">
         <source>Upload logo</source>
@@ -1223,6 +1138,90 @@
           <context context-type="sourcefile">app/_secure/components/forms/company-detail-form/company-detail-form.component.html</context>
           <context context-type="linenumber">173</context>
         </context-group>
+      </trans-unit><trans-unit id="4129d6fb738278ccdfa89054fde7a455ece986fa" datatype="html">
+        <source>Signing up signifies that you have read and agree to the</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit><trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
+        <source>Privacy Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit><trans-unit id="8766c44c24a24baff3581ca6d4c4bb47336c7499" datatype="html">
+        <source>Schedule a meeting
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit><trans-unit id="c40c132843f349c3aa49730405de1d0ca733aef6" datatype="html">
+        <source>Sign up</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="92a89ad4c10e0c47a5c993d115f7a8cb34b6f523" datatype="html">
+        <source>
+      First name is required
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit><trans-unit id="179e233b2bad12902cedd69bdad85e7a15e2d89c" datatype="html">
+        <source>
+      Last name is required
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit><trans-unit id="a932af770f4e4958f744ad256e21a38d9d3d58ce" datatype="html">
+        <source>
+      Company name is required
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit><trans-unit id="ed1341869cf9cb7017821057cb99854bb6ac9130" datatype="html">
+        <source>Company name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit><trans-unit id="7bd6357eacf04a49cf4c573d3743cfab5b53855a" datatype="html">
+        <source>
+      Phone number is required
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit><trans-unit id="b77e5e91e3fecbf43373e13362c5a47a63910136" datatype="html">
+        <source>
+      Phone number is invalid
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit><trans-unit id="415cea4a3f2e8f5d08fd16ac2cbed0bef12dcbda" datatype="html">
+        <source>I like to receive updates about Data Outlet X</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit><trans-unit id="ef017335120476fb202ffc6123529c23b8b8c36a" datatype="html">
+        <source>Sign up
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/components/forms/sign-up-form/sign-up-form.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
       </trans-unit><trans-unit id="4129a8a248c734f5039655313da8d7ad7a668b5b" datatype="html">
         <source>
         My searches
@@ -1245,31 +1244,13 @@
           <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/explorer/explorer.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
-      </trans-unit><trans-unit id="5d71b91b278fcbe02ed75a91128687ef6437d0c3" datatype="html">
-        <source>Reset all filter values</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-search-filter-bar/finder-search-filter-bar.component.html</context>
-          <context context-type="linenumber">22</context>
-        </context-group>
-      </trans-unit><trans-unit id="74fee3e1823626412121fbaccf820365ce3fa949" datatype="html">
-        <source>Manually add filters</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-search-filter-bar/finder-search-filter-bar.component.html</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-      </trans-unit><trans-unit id="7dab740c27b784f72bf30521d772d8b47cd29886" datatype="html">
-        <source>Learn more about filters</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-search-filter-bar/finder-search-filter-bar.component.html</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
       </trans-unit><trans-unit id="1e2d65256ae8ca7d7e63b760d877189ddcd17b8c" datatype="html">
         <source>
         Result Options
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-result-bar/finder-result-bar.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit><trans-unit id="f8b53b407af242e77dc3391947f23988f3451e64" datatype="html">
         <source>
@@ -1277,7 +1258,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-result-bar/finder-result-bar.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">98</context>
         </context-group>
       </trans-unit><trans-unit id="28bf49a8a90289c034b2970031814f8164f9e02d" datatype="html">
         <source>
@@ -1285,7 +1266,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-result-bar/finder-result-bar.component.html</context>
-          <context context-type="linenumber">100</context>
+          <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit><trans-unit id="f871b41bfbdb193507cce2cd848c2d02bde77a03" datatype="html">
         <source>No results found</source>
@@ -1317,6 +1298,30 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-result-bar-download/finder-result-bar-download.component.html</context>
           <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit><trans-unit id="7f32abe3fc638f65c0d3eb269d478ee49ad41ebe" datatype="html">
+        <source>more</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-filter-bar-item/finder-filter-bar-item.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit><trans-unit id="b463541a7e303aa4d0b1102eaff8afbaf34e7a74" datatype="html">
+        <source>Select all</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-filter-bar-list/finder-filter-bar-list.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit><trans-unit id="67acdcf2b8983f5afe95330dde43d49b72db66f4" datatype="html">
+        <source>DeSelect all</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-filter-bar-list/finder-filter-bar-list.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit><trans-unit id="aa84c08c3f7c9277a9672552c6347f967881f516" datatype="html">
+        <source>Search for filters ...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/_secure/modules/_finder-overview/components/finder/finder-filter-bar-list/finder-filter-bar-list.component.html</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit><trans-unit id="df5c14afa636b1c25fc32db5d841ea900e3d37ee" datatype="html">
         <source>Product name</source>
@@ -1968,12 +1973,6 @@
           <context context-type="sourcefile">app/_secure/modules/_user-management/components/user-management-list/user-management-list.component.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
-      </trans-unit><trans-unit id="7c7f4be7b726e61c577e63842a58d9e435f7c597" datatype="html">
-        <source>users</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/_secure/modules/_user-management/components/user-management-list/user-management-list.component.html</context>
-          <context context-type="linenumber">98</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="b2226338dbcb295869fe7327dab7b4d9bca5a942" datatype="html">
         <source>Create password</source>
@@ -2298,6 +2297,13 @@
         <source>Exporting users as</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/_secure/modules/_user-management/components/user-management-list/user-management-list.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a63f6d42ee596c1d7d0305e530fbfaa9943d731b" datatype="html">
+        <source>Could not change to this company</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_secure/secure.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
