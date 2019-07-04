@@ -5,7 +5,6 @@ const constants = require('./../lib/constants.js');
 const chalk = require('chalk');
 const logSymbols = require('log-symbols');
 
-
 global.appRoot = process.cwd();
 global.translatorConfig = require(`${appRoot}/${constants.CONFIG_NAME}`);
 
@@ -32,6 +31,7 @@ xlrTranslatorModule.validateFilesAndPrepareBeforeProcessing((err) => {
             if(err) {
                 throw err;
             }
+
             console.log('');
             console.log(logSymbols.info, chalk.blue('Done ...'));
         });
