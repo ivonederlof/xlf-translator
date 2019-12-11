@@ -5,5 +5,5 @@ export declare class TranslationUtil {
      * @param text {string}
      * @param iso {string} - default given from translator-config.json
      */
-    static one(text: string, iso: string): Promise<Translated>;
+    static one(text: string | number | undefined, iso: string): Promise<Translated>;
 }

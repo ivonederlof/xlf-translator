@@ -40,10 +40,24 @@ export class FileUtil {
    * Read file from root
    * @param path - relative path {string}
    */
-  public static readFile(path: string[]): Promise<Buffer> {
+  public static readFile<T>(path: string[]): Promise<Buffer> {
     return new Promise<Buffer>((resolve, reject) => {
       fs.readFile(FileUtil.absolutePath(path), (err, data) => {
         err ? reject(err) : resolve(data);
+      });
+    });
+  }
+
+  /**
+   * Write file based on relative path from root
+   * @param path {string[]}
+   * @param data {any[]}
+   * @param flag {string}
+   */
+  public static writeFile(path: string[], data: any, flag = 'w'): Promise<void> {
+    return new Promise<void>((resolve, reject) => {
+      fs.writeFile(FileUtil.absolutePath(path), data,{ encoding: 'utf8', flag }, err => {
+        err ? reject(err) : resolve();
       });
     });
   }
@@ -69,7 +83,6 @@ export class FileUtil {
     return new Promise<any>((resolve, reject) => {
       fs.copyFile(this.createPath(source), this.createPath(destination), err => {
         if (err && err.code !== 'ENOENT') {
-          console.log(err);
           reject(err);
         }
 

@@ -1,5 +1,4 @@
 import { Worksheet } from '../models/worksheet.model';
-import { ElementCompact } from 'xml-js';
 export declare class TranslationHandler {
     /**
      * Translate all messages
@@ -11,9 +10,4 @@ export declare class TranslationHandler {
      * @param message
      */
     private _translateMessage;
-}
-export declare class TransUnit implements ElementCompact {
-    source: ElementCompact;
-    target: ElementCompact;
-    constructor(source: ElementCompact, target: ElementCompact);
 }

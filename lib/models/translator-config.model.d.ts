@@ -14,6 +14,6 @@ export declare class TranslatorConfig {
     get output(): string;
     get fromLanguage(): string;
     get toLanguages(): string[];
-    get languageFileNames(): string[];
+    localeFileName(iso: string): string;
 }
 export {};

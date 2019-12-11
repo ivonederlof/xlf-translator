@@ -1,15 +1,27 @@
-import { XlfMessage } from './xlf-message.model';
+import { Message } from './message.model';
+import { FileUtil } from '../utils/file.util';
 
 export class Worksheet {
-  private readonly _source: XlfMessage;
-  public messages: XlfMessage[];
+  private readonly _source: Message;
+  public messages: Message[];
 
-  constructor(messages: XlfMessage[], source: XlfMessage) {
+  constructor(messages: Message[], source: Message) {
     this.messages = messages;
     this._source = source;
   }
 
-  get source(): XlfMessage {
+  get source(): Message {
     return this._source;
+  }
+
+  /**
+   * Update xlf file in output folder
+   */
+  public updateXlfFiles(): Promise<void> {
+    return Promise.all(
+      this.messages.map(message => FileUtil.writeFile([message.path], message.xlf)),
+    ).then(() => {
+      console.log('Updated files ...');
+    });
   }
 }

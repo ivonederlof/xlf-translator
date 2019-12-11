@@ -1,6 +1,9 @@
 import { Worksheet } from '../models/worksheet.model';
-import { XlfMessage } from '../models/xlf-message.model';
-import { Attributes, Element, ElementCompact } from 'xml-js';
+import { ElementCompact } from 'xml-js';
+import { TransUnit } from '../models/transunit.model';
+import { Message } from '../models/message.model';
+import { Global } from '../common/global';
+import logger = Global.logger;
 
 export class TranslationHandler {
   /**
@@ -9,11 +12,9 @@ export class TranslationHandler {
   public translateAllMessages(worksheet: Worksheet): Promise<Worksheet> {
     return Promise.all(
       worksheet.messages.map(message => this._translateMessage(worksheet.source, message)),
-    ).then(messages => {
-      return new Promise<Worksheet>(resolve => {
-        worksheet.messages = messages;
-        resolve(worksheet);
-      });
+    ).then((messages: Message[]) => {
+      worksheet.messages = messages;
+      return worksheet;
     });
   }
 
@@ -22,51 +23,19 @@ export class TranslationHandler {
    * @param source
    * @param message
    */
-  private _translateMessage(source: XlfMessage, message: XlfMessage): Promise<XlfMessage> {
-    return new Promise<XlfMessage>((resolve, reject) => {
-      message.body['trans-unit'].forEach((unit: ElementCompact) => {
-        unit = new TransUnit(unit.source, unit.target);
-        console.log(unit);
-      });
-      console.log(JSON.stringify(message, null, 2));
-      resolve(message);
+  private _translateMessage(source: Message, message: Message): Promise<Message> {
+    logger.info(`\nTranslating ${message.iso}:\n`);
+    return Promise.all(
+      message.transUnits.map((unit: ElementCompact) => {
+        const translationUnit = new TransUnit(unit, unit.target);
+        logger.info(
+          `translated: ${translationUnit.target._text} -> ${translationUnit.target._text}`,
+        );
+        return translationUnit.translate(message.iso);
+      }),
+    ).then(transUnits => {
+      message.transUnits = transUnits;
+      return message;
     });
   }
 }
-
-export class TransUnit implements ElementCompact {
-  public target: ElementCompact;
-
-  constructor(public source: ElementCompact, target: ElementCompact) {
-    this.target = !target && source || target;
-  }
-}
-
-//
-// {
-//   "_attributes": {
-//   "id": "app.title",
-//       "datatype": "html"
-// },
-//   "source": {
-//   "_text": "Xlf Translator"
-// },
-//   "context-group": {
-//   "_attributes": {
-//     "purpose": "location"
-//   },
-//   "context": [
-//     {
-//       "_attributes": {
-//         "context-type": "sourcefile"
-//       },
-//       "_text": "app/app.component.html"
-//     },
-//     {
-//       "_attributes": {
-//         "context-type": "linenumber"
-//       },
-//       "_text": "2"
-//     }
-//   ]
-// },

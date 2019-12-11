@@ -2,7 +2,10 @@ import { Worksheet } from '../models/worksheet.model';
 import { Constants } from '../common/constants';
 import { FileUtil } from '../utils/file.util';
 import { Global } from '../common/global';
-import { XlfMessage } from '../models/xlf-message.model';
+import { Message } from '../models/message.model';
+import logger = Global.logger;
+
+const config = Global.config;
 
 export class XlfHandler {
   /**
@@ -10,16 +13,19 @@ export class XlfHandler {
    * @private
    */
   public createXlfWorkSheet(): Promise<Worksheet> {
-    return Promise.all<XlfMessage>(
-      Global.config.languageFileNames.map(fileName => {
-        const path = [Global.config.output, Constants.XLF_OUTPUT_DIRECTORY, fileName];
-        return FileUtil.copyFile([Global.config.source], path).then(
-          fileBuffer => new XlfMessage(path, fileBuffer),
+    logger.debug('\nGenerating a worksheet for files: \n');
+    return Promise.all<Message>(
+      config.toLanguages.map(iso => {
+        const fileName = Global.config.localeFileName(iso);
+        const path = [config.output, Constants.OUTPUT_DIRECTORY, fileName];
+        logger.debug(`file: ${fileName}`);
+        return FileUtil.copyFile([config.source], path).then(
+          fileBuffer => new Message(path, fileBuffer, iso),
         );
       }),
     ).then(messages =>
-      FileUtil.readFile([Global.config.source]).then(source => {
-        const sourceMessage = new XlfMessage([Global.config.source], source);
+      FileUtil.readFile([config.source]).then(source => {
+        const sourceMessage = new Message([config.source], source, config.fromLanguage);
         return new Worksheet(messages, sourceMessage);
       }),
     );
