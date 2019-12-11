@@ -1,9 +1,10 @@
 {
-  "source": "/locale/messages.xlf",
-  "outputPath": "/locale",
+  "source": "locale/messages.xlf",
+  "output": "locale",
   "fromLanguage": "en",
-  "toLanguage": [
+  "toLanguages": [
     "nl",
-    "de"
+    "de",
+    "fr"
   ]
 }

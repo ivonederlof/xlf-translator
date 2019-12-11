@@ -10,6 +10,7 @@
     "translate": "./lib/index.js"
   },
   "scripts": {
+    "start": "tsc && node ./lib/index.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
@@ -34,7 +35,9 @@
   },
   "homepage": "https://github.com/ivonederlof/xlf-translator#readme",
   "dependencies": {
-    "@k3rn31p4nic/google-translate-api": "^1.0.5"
+    "@types/node": "^12.12.16",
+    "google-translate-api": "^2.3.0",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",

@@ -1,11 +1,26 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "baseUrl": "",
+    "target": "es6",
     "module": "commonjs",
     "declaration": true,
     "outDir": "./lib",
-    "strict": true
+    "strict": true,
+    "allowJs": true,
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    },
+    "lib": [
+      "dom",
+      "es2016",
+      "scripthost"
+    ]
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    "node_modules/@types/node/globals.d.ts",
+    "node_modules/@types/node/globals.d.ts",
+    "node_modules/@types/jest/index.d.ts"
+  ],
   "exclude": ["node_modules", "**/__tests__/*"]
 }
