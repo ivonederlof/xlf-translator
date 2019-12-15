@@ -13,7 +13,9 @@
     "lib": [
       "dom",
       "es2016",
-      "scripthost"
+      "scripthost",
+      "es5",
+      "dom"
     ]
   },
   "include": [

@@ -10,6 +10,8 @@ export class Message implements Object {
   private _xlf: string;
   public js: ElementCompact;
 
+  private _processed: number = 0;
+
   constructor(path: string[], raw: Buffer, iso: string) {
     this._iso = iso;
     this._path = FileUtil.createPath(path);
@@ -19,6 +21,10 @@ export class Message implements Object {
 
   get path(): string {
     return this._path;
+  }
+
+  get processed() {
+    return this._processed;
   }
 
   get iso() {
@@ -48,5 +54,9 @@ export class Message implements Object {
     } catch (e) {
       throw Error(`Could not write to xlf for message on path: \'${this.path}\'`);
     }
+  }
+
+  public incrementProcessedItem() {
+    this._processed++;
   }
 }

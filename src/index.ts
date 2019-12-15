@@ -1,4 +1,4 @@
-import { TranslationHandler } from './handlers/translation.handler';
+import { MessageHandler } from './handlers/message-handler';
 import { ValidationHandler } from './handlers/validation.handler';
 import { XlfHandler } from './handlers/xlf.handler';
 import { Worksheet } from './models/worksheet.model';
@@ -6,7 +6,7 @@ import { Global } from './common/global';
 import logger = Global.logger;
 
 const xlfHandler = new XlfHandler();
-const translatorHandler = new TranslationHandler();
+const messageHandler = new MessageHandler();
 const validationHandler = new ValidationHandler();
 
 execute()
@@ -32,6 +32,6 @@ export function execute(): Promise<void> {
   return validationHandler
     .prepare()
     .then(xlfHandler.createXlfWorkSheet)
-    .then((worksheet: Worksheet) => translatorHandler.translateAllMessages(worksheet))
+    .then((worksheet: Worksheet) => messageHandler.handleMessagesForWorksheet(worksheet))
     .then((worksheet: Worksheet) => worksheet.updateXlfFiles());
 }

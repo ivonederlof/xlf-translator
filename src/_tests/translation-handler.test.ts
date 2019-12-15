@@ -1,7 +1,7 @@
-import {TranslationHandler} from '../handlers/translation.handler';
+import {MessageHandler} from 'message-handler.ts';
 
 describe('TranslationHandler', () => {
-    const translationHandler = new TranslationHandler();
+    const translationHandler = new MessageHandler();
 
     beforeEach(() => {
     });

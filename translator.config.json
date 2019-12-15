@@ -3,5 +3,5 @@
   "source": "locale/messages.xlf",
   "output": "locale",
   "fromLanguage": "en",
-  "toLanguages": ["nl", "de", "fr"]
+  "toLanguages": ["nl", "de", "fr", "zh-cn"]
 }

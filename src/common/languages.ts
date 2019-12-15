@@ -1,5 +1,6 @@
+
 export class Languages {
-  public static languages = {
+  public static languages: object = {
     auto: 'Automatic',
     af: 'Afrikaans',
     sq: 'Albanian',
@@ -117,8 +118,8 @@ export class Languages {
           `Iso ${iso} is not supported, please check if you defined the right iso in the translator.config.json file`,
       );
     }
-    // @ts-ignore
-    return Languages.languages[iso];
+
+    return Object(Languages.languages)[iso];
   }
 
   /**
