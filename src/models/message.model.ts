@@ -16,7 +16,7 @@ export class Message implements Object {
     this._iso = iso;
     this._path = FileUtil.createPath(path);
     this._xlf = raw.toString();
-    this.js = xmlJs.xml2js(this._xlf, { compact: true });
+    this.js = xmlJs.xml2js(this._xlf, { compact: true, trim: true });
   }
 
   get path(): string {

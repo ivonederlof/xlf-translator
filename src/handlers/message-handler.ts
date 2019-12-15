@@ -12,7 +12,7 @@ export class MessageHandler {
    */
   public handleMessagesForWorksheet(worksheet: Worksheet): Promise<Worksheet> {
     return Promise.each(worksheet.messages, message => {
-      logger.info(`\nTranslating ${Languages.get(message.iso)}:\n`);
+      logger.info(`\nChecking updates for ${Languages.get(message.iso)}:\n`);
       return this._handleMessage(worksheet.source, message);
     }).then((messages: Message[]) => {
       worksheet.messages = messages;

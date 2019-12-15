@@ -3,6 +3,7 @@
     "baseUrl": "",
     "target": "es6",
     "module": "commonjs",
+    "resolveJsonModule": true,
     "declaration": true,
     "outDir": "./lib",
     "strict": true,

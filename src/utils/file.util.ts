@@ -81,11 +81,10 @@ export class FileUtil {
    */
   public static copyFile(source: string[], destination: string[]): Promise<any> {
     return new Promise<any>((resolve, reject) => {
-      fs.copyFile(this.createPath(source), this.createPath(destination), err => {
-        if (err && err.code !== 'ENOENT') {
+      fs.copyFile(this.createPath(source), this.createPath(destination), fs.constants.COPYFILE_EXCL, (err) => {
+        if (err && err.code !== 'ENOENT' && err.code !== 'EEXIST') {
           reject(err);
         }
-
         return FileUtil.readFile(destination).then(fileBuffer => resolve(fileBuffer));
       });
     });

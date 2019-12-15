@@ -2,56 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27cd18d8-416c-4223-a9e4-72920eb0dcf5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/handlers/message-handler.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/_tests/index.test.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/_tests/index.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/_tests/translation-handler.test.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/_tests/translation-handler.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/constants.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/global.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/translator-error.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/translator-error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/file.handler.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/file.handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/translation.handler.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/translation.handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/validation.handler.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/validation.handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/xlf.handler.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/xlf.handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/translated.model.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/translated.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/translator-config.model.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/translator-config.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/transunit.model.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/transunit.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/worksheet.model.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/worksheet.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/xlf-js.model.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/xlf-js.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/xlf-message.model.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/xlf-message.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/file.util.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/file.util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/translation.util.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/translation.util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_tests/translation-handler.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/_tests/translation-handler.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/global.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/languages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/languages.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enum/translation-type.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enum/target-type.enum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/translation.handler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/message-handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/message-handler.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/message.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/message.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/transunit.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/transunit.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/logger.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/logger.util.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/translator.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/worksheet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/worksheet.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/file.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/file.util.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -226,7 +183,7 @@
       <workItem from="1558962535038" duration="742000" />
       <workItem from="1562245657657" duration="9004000" />
       <workItem from="1576010178216" duration="33809000" />
-      <workItem from="1576400291778" duration="22505000" />
+      <workItem from="1576400291778" duration="33077000" />
     </task>
     <servers />
   </component>
@@ -267,6 +224,12 @@
           <url>file://$PROJECT_DIR$/lib/handlers/translation.handler.js</url>
           <line>11</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/utils/file.util.ts</url>
+          <line>85</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

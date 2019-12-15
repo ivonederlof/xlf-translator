@@ -3,9 +3,9 @@ import { TranslationUtil } from '../utils/translation.util';
 import { Message } from './message.model';
 import * as chalk from 'chalk';
 import { Global } from '../common/global';
-import logger = Global.logger;
 import { Translated } from './translated.model';
-import {TargetType} from "../enum/target-type.enum";
+import { TargetType } from '../enum/target-type.enum';
+import logger = Global.logger;
 
 export class TransUnit implements ElementCompact {
   public target: ElementCompact;
@@ -19,7 +19,7 @@ export class TransUnit implements ElementCompact {
     this._message = message;
     this.source = unit.source;
     this.target = (!unit.target && { ...unit.source }) || unit.target;
-    this.translator = unit.translator || { _text: '' };
+    this.translator = (unit && unit.translator) || { _text: '' };
   }
 
   /**
@@ -30,13 +30,23 @@ export class TransUnit implements ElementCompact {
     return this;
   }
 
-  get text(): string | number | undefined {
+  get targetText(): string | number | undefined {
+    return this.target && this.target._text;
+  }
+
+  get sourceText(): string | number | undefined {
     return this.source && this.source._text;
   }
 
-  get type(): TargetType {
-    const text = (this.text && this.text.toString()) || '';
+  get translatorText(): string | number | undefined {
+    return this.translator && this.translator._text;
+  }
 
+  /**
+   * Get the target type for this trans unit
+   */
+  get targetType(): TargetType {
+    const text = (this.sourceText && this.sourceText.toString()) || '';
     if (text.match(`.*\\VAR_PLURAL\\b.*`) && text.match(`.*\\VAR_SELECT\\b.*`)) {
       return TargetType.PLURALS;
     }
@@ -51,7 +61,24 @@ export class TransUnit implements ElementCompact {
    * Translate for all types
    */
   public update(): Promise<TransUnit> {
-    switch (this.type) {
+    if (this.targetText && this.translatorText === this.targetText) {
+      logger.custom(chalk.gray(`[${this._message.processed}]: ${this.targetText}`));
+      return Promise.resolve(this);
+    }
+
+    if (this.targetText && this.translatorText && this.translatorText !== this.targetText) {
+      logger.custom(
+        chalk.green(`[${this._message.processed}]: ${this.translatorText} -> ${this.targetText}`),
+      );
+      this.translator._text = this.targetText;
+      return Promise.resolve(this);
+    }
+
+    return this._handleTranslations();
+  }
+
+  private _handleTranslations() {
+    switch (this.targetType) {
       case TargetType.SELECT:
         return this._handleSelectTranslation();
       case TargetType.PLURALS:
@@ -64,18 +91,28 @@ export class TransUnit implements ElementCompact {
   }
 
   /**
+   * Log target and source
+   * @param target
+   * @param source
+   * @private
+   */
+  private _log(target: string | number | undefined, source: string | number | undefined) {
+    logger.custom(
+      chalk.blue(`[${this._message.processed}]: `) + `${target}` + ` ${chalk.gray(source)}`,
+    );
+  }
+
+  /**
    * Handle a normal/default translation
    */
   private _handleDefaultTranslation(): Promise<TransUnit> {
     return new Promise((resolve, reject) => {
-      TranslationUtil.one(this.text, this._message.iso)
+      TranslationUtil.one(this.sourceText, this._message.iso)
         .then((translated: Translated) => {
           this.target._text = translated.to;
           this.translator._text = translated.to;
           logger.custom(
-            chalk.blue(`[${this._message.processed}]: `) +
-              `${this.target._text}` +
-              ` ${chalk.gray(this.source._text)}`,
+              chalk.green(`[${this._message.processed}]: ++ ${this.targetText}`) + ` ${chalk.gray(this.sourceText)}`,
           );
           resolve(this);
         })
@@ -90,15 +127,30 @@ export class TransUnit implements ElementCompact {
    * @private
    */
   private _handleSelectTranslation(): Promise<TransUnit> {
-    return new Promise(resolve => {
-      this.target._text = this.source._text;
+    const items = this._getTranslationItemsFromSelectPlural();
+    if (!items || !items.length) {
+      return Promise.resolve(this);
+    }
+    this.target._text = this.source._text;
+    return TranslationUtil.many(items, this._message.iso).then((translatedItems: Translated[]) => {
+      translatedItems.forEach(item => {
+        this.target._text = this.targetText && this.targetText.toString().replace(`{${item.from}`, `{${item.to}`);
+      });
+      this.translator._text = this.targetText;
       logger.custom(
-        chalk.blue(`[${this._message.processed}]: `) +
-          `${TargetType.SELECT}` +
-          ` ${chalk.gray(TargetType.SELECT)}`,
+          chalk.green(`[${this._message.processed}]: ++ ${TargetType.SELECT} - (${translatedItems.map(t => t.to).join(', ')})`)
+          + chalk.gray(` (${items.join(', ')})`)
       );
-      resolve(this);
+      return this;
     });
+  }
+
+  private _getTranslationItemsFromSelectPlural(): string[] {
+    const context =
+        typeof this.sourceText === 'string' &&
+        this.sourceText.substring(1, this.sourceText.length - 1).toString();
+    const strings = typeof context === 'string' && context.match(/[^{\\}]+(?=})/g);
+   return strings && strings.length && strings.map(string => string.toString()) || [];
   }
 
   /**
@@ -106,14 +158,21 @@ export class TransUnit implements ElementCompact {
    * @private
    */
   private _handlePluralTranslation(): Promise<TransUnit> {
-    return new Promise(resolve => {
-      this.target._text = this.source._text;
+    const items = this._getTranslationItemsFromSelectPlural();
+    if (!items || !items.length) {
+      return Promise.resolve(this);
+    }
+    this.target._text = this.source._text;
+    return TranslationUtil.many(items, this._message.iso).then((translatedItems: Translated[]) => {
+      translatedItems.forEach(item => {
+        this.target._text = this.targetText && this.targetText.toString().replace(`{${item.from}`, `{${item.to}`);
+      });
+      this.translator._text = this.targetText;
       logger.custom(
-        chalk.blue(`[${this._message.processed}]: `) +
-          `${TargetType.PLURALS}` +
-          ` ${chalk.gray(TargetType.PLURALS)}`,
+          chalk.green(`[${this._message.processed}]: ++ ${TargetType.PLURALS} - (${translatedItems.map(t => t.to).join(', ')})`)
+          + chalk.gray(` (${items.join(', ')})`)
       );
-      resolve(this);
+      return this;
     });
   }
 }
