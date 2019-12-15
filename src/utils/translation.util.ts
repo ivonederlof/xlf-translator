@@ -13,4 +13,15 @@ export class TranslationUtil {
       (translated: any) => new Translated(text, translated.text),
     );
   }
+
+  /**
+   * Translate many texts
+   * @param texts {string[]}
+   * @param iso {string}
+   */
+  public static many(texts: string[], iso: string): Promise<Translated[]> {
+    return Promise.all(
+        texts.map((text) => this.one(text, iso))
+    )
+  }
 }

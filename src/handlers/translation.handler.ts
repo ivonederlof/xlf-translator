@@ -4,6 +4,7 @@ import { TransUnit } from '../models/transunit.model';
 import { Message } from '../models/message.model';
 import { Global } from '../common/global';
 import logger = Global.logger;
+import {Languages} from "../common/languages";
 
 export class TranslationHandler {
   /**
@@ -24,7 +25,7 @@ export class TranslationHandler {
    * @param message
    */
   private _translateMessage(source: Message, message: Message): Promise<Message> {
-    logger.info(`\nTranslating ${message.iso}:\n`);
+    logger.info(`\nTranslating ${Languages.get(message.iso)}:\n`);
     return Promise.all(
       message.transUnits.map((unit: ElementCompact) => {
         const translationUnit = new TransUnit(unit, unit.target);
