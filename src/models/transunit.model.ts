@@ -30,16 +30,16 @@ export class TransUnit implements ElementCompact {
     return this;
   }
 
-  get targetText(): string | number | undefined {
-    return this.target && this.target._text;
+  get targetText(): string {
+    return (this.target && this.target._text && this.target._text.toString()) || '';
   }
 
-  get sourceText(): string | number | undefined {
-    return this.source && this.source._text;
+  get sourceText(): string {
+    return (this.source && this.source._text && this.source._text.toString()) || '';
   }
 
-  get translatorText(): string | number | undefined {
-    return this.translator && this.translator._text;
+  get translatorText(): string {
+    return (this.translator && this.translator._text && this.translator._text.toString()) || '';
   }
 
   /**
@@ -61,6 +61,12 @@ export class TransUnit implements ElementCompact {
    * Translate for all types
    */
   public update(): Promise<TransUnit> {
+    if (!this.source) {
+      this.source = { _text: '' };
+      this.target = { _text: '' };
+      return Promise.resolve(this);
+    }
+
     if (this.targetText && this.translatorText === this.targetText) {
       logger.custom(chalk.gray(`[${this._message.processed}]: ${this.targetText}`));
       return Promise.resolve(this);
@@ -91,18 +97,6 @@ export class TransUnit implements ElementCompact {
   }
 
   /**
-   * Log target and source
-   * @param target
-   * @param source
-   * @private
-   */
-  private _log(target: string | number | undefined, source: string | number | undefined) {
-    logger.custom(
-      chalk.blue(`[${this._message.processed}]: `) + `${target}` + ` ${chalk.gray(source)}`,
-    );
-  }
-
-  /**
    * Handle a normal/default translation
    */
   private _handleDefaultTranslation(): Promise<TransUnit> {
@@ -112,7 +106,8 @@ export class TransUnit implements ElementCompact {
           this.target._text = translated.to;
           this.translator._text = translated.to;
           logger.custom(
-              chalk.green(`[${this._message.processed}]: ++ ${this.targetText}`) + ` ${chalk.gray(this.sourceText)}`,
+            chalk.green(`[${this._message.processed}]: ++ ${this.targetText}`) +
+              ` ${chalk.gray(this.sourceText)}`,
           );
           resolve(this);
         })
@@ -134,23 +129,19 @@ export class TransUnit implements ElementCompact {
     this.target._text = this.source._text;
     return TranslationUtil.many(items, this._message.iso).then((translatedItems: Translated[]) => {
       translatedItems.forEach(item => {
-        this.target._text = this.targetText && this.targetText.toString().replace(`{${item.from}`, `{${item.to}`);
+        this.target._text =
+          this.targetText && this.targetText.toString().replace(`{${item.from}`, `{${item.to}`);
       });
       this.translator._text = this.targetText;
       logger.custom(
-          chalk.green(`[${this._message.processed}]: ++ ${TargetType.SELECT} - (${translatedItems.map(t => t.to).join(', ')})`)
-          + chalk.gray(` (${items.join(', ')})`)
+        chalk.green(
+          `[${this._message.processed}]: ++ ${TargetType.SELECT} - (${translatedItems
+            .map(t => t.to)
+            .join(', ')})`,
+        ) + chalk.gray(` (${items.join(', ')})`),
       );
       return this;
     });
-  }
-
-  private _getTranslationItemsFromSelectPlural(): string[] {
-    const context =
-        typeof this.sourceText === 'string' &&
-        this.sourceText.substring(1, this.sourceText.length - 1).toString();
-    const strings = typeof context === 'string' && context.match(/[^{\\}]+(?=})/g);
-   return strings && strings.length && strings.map(string => string.toString()) || [];
   }
 
   /**
@@ -165,14 +156,26 @@ export class TransUnit implements ElementCompact {
     this.target._text = this.source._text;
     return TranslationUtil.many(items, this._message.iso).then((translatedItems: Translated[]) => {
       translatedItems.forEach(item => {
-        this.target._text = this.targetText && this.targetText.toString().replace(`{${item.from}`, `{${item.to}`);
+        this.target._text =
+          this.targetText && this.targetText.toString().replace(`{${item.from}`, `{${item.to}`);
       });
       this.translator._text = this.targetText;
       logger.custom(
-          chalk.green(`[${this._message.processed}]: ++ ${TargetType.PLURALS} - (${translatedItems.map(t => t.to).join(', ')})`)
-          + chalk.gray(` (${items.join(', ')})`)
+        chalk.green(
+          `[${this._message.processed}]: ++ ${TargetType.PLURALS} - (${translatedItems
+            .map(t => t.to)
+            .join(', ')})`,
+        ) + chalk.gray(` (${items.join(', ')})`),
       );
       return this;
     });
+  }
+
+  private _getTranslationItemsFromSelectPlural(): string[] {
+    const context =
+      typeof this.sourceText === 'string' &&
+      this.sourceText.substring(1, this.sourceText.length - 1).toString();
+    const strings = typeof context === 'string' && context.match(/[^{\\}]+(?=})/g);
+    return (strings && strings.length && strings.map(string => string.toString())) || [];
   }
 }

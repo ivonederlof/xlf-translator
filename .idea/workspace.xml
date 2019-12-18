@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="27cd18d8-416c-4223-a9e4-72920eb0dcf5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/handlers/message-handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/message-handler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/message.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/message.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/transunit.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/transunit.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/worksheet.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/worksheet.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/file.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/file.util.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/translation.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/translation.util.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,15 +48,15 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/locale" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/common" />
       <recent name="$PROJECT_DIR$/src/types" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/handlers" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/locale" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,7 +181,8 @@
       <workItem from="1558962535038" duration="742000" />
       <workItem from="1562245657657" duration="9004000" />
       <workItem from="1576010178216" duration="33809000" />
-      <workItem from="1576400291778" duration="33077000" />
+      <workItem from="1576400291778" duration="38501000" />
+      <workItem from="1576604480183" duration="1470000" />
     </task>
     <servers />
   </component>
@@ -228,8 +227,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/utils/file.util.ts</url>
           <line>85</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/models/transunit.model.ts</url>
+          <line>114</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

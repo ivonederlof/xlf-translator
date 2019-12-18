@@ -31,7 +31,7 @@ export class MessageHandler {
       const translationUnit = new TransUnit(unit, message);
       return translationUnit.update();
     }).then((transUnits) => {
-      message.transUnits = transUnits.map((transUnit) => transUnit.export);
+      message.transUnits = transUnits && transUnits.map((transUnit) => transUnit.export);
       return message;
     });
   }
